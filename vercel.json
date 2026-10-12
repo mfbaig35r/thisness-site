@@ -1,4 +1,7 @@
 {
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "out",
   "cleanUrls": true,
   "headers": [
     {
@@ -30,6 +33,19 @@
           "value": "image/png"
         }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.thisness.dev"
+        }
+      ],
+      "destination": "https://thisness.dev/:path*",
+      "permanent": true
     }
   ]
 }
