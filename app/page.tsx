@@ -4,7 +4,6 @@ import { Icon } from "@/components/Icon";
 import { Explorer } from "@/components/explorer/Explorer";
 import type { ExplorerData } from "@/components/explorer/types";
 import { CopyCommand } from "@/components/landing/CopyCommand";
-import { PixelField } from "@/components/landing/PixelField";
 import { highlight } from "@/lib/highlight";
 import data from "@/data/explorer.json";
 
@@ -84,8 +83,6 @@ export default async function Home() {
       </section>
 
       <section className="stage">
-        <PixelField side="left" />
-        <PixelField side="right" seed={11} />
         <div className="window">
           <div className="window-bar">
             <span className="lights"><i /><i /><i /></span>
@@ -210,8 +207,6 @@ export default async function Home() {
       </section>
 
       <section className="closing">
-        <PixelField side="left" rows={22} width={300} seed={23} />
-        <PixelField side="right" rows={22} width={300} seed={29} />
         <h2 className="display">Know what your records refer to</h2>
         <div className="hero-ctas">
           <CopyCommand command="pip install 'thisness[ui]'" />

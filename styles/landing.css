@@ -1,5 +1,5 @@
 /* The landing page, after twenty.com: white, a light slab-serif display face, mono labels,
-   a framed product window, pixel marks at the edges. */
+   a framed product window. */
 
 .landing { background: var(--card); }
 .display {
@@ -20,9 +20,6 @@
 .hero-ctas { display: flex; gap: 12px; margin-top: 32px; flex-wrap: wrap; justify-content: center; }
 
 .stage { position: relative; padding: 18px 24px 0; display: flex; flex-direction: column; align-items: center; overflow: hidden; }
-.pixel-field { position: absolute; top: 120px; fill: var(--accent); pointer-events: none; }
-.pixel-field.left { left: 0; }
-.pixel-field.right { right: 0; }
 .window {
   position: relative; z-index: 1; width: min(1180px, 100%);
   border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--t-background-secondary);
@@ -115,7 +112,6 @@
 
 .closing { position: relative; overflow: hidden; margin-top: 120px; padding: 96px 24px; text-align: center; display: flex; flex-direction: column; align-items: center;
   background: var(--site-bg); border-top: 1px solid var(--line); }
-.closing .pixel-field { top: 50%; transform: translateY(-50%); }
 .closing .display { position: relative; z-index: 1; font-size: clamp(32px, 4.4vw, 50px); }
 .closing .hero-ctas { position: relative; z-index: 1; }
 
@@ -131,7 +127,6 @@
   .principles, .domains { grid-template-columns: 1fr 1fr; }
   .stats { grid-template-columns: 1fr 1fr; }
   .code-pair { grid-template-columns: 1fr; }
-  .pixel-field { opacity: .45; }
 }
 @media (max-width: 760px) {
   .hero { padding-top: 56px; }
@@ -139,6 +134,5 @@
   .principles, .domains, .stats { grid-template-columns: 1fr; }
   .section { padding: 80px 16px 0; }
   .footer-cols { grid-template-columns: 1fr 1fr; }
-  .pixel-field { display: none; }
   .stage { padding: 8px 8px 0; }
 }
