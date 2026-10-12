@@ -1,0 +1,49 @@
+/* What the explorer adds to the Workbench's styles: it lives inside a page, not a window. */
+
+.wb.explorer { height: 100%; overflow: hidden; }
+.wb.explorer .shell { height: 100%; }
+.wb.explorer .sidebar { gap: 2px; }
+.wb .nav-item { cursor: pointer; }
+.wb .explorer-note {
+  margin: auto 4px 4px; padding: 10px; border-radius: 8px; line-height: 1.45;
+  color: var(--t-font-color-tertiary); background: var(--t-background-transparent-lighter);
+  border: 1px solid var(--t-border-color-light); font-size: 11.5px;
+}
+.wb .explorer-note .icon { vertical-align: -2px; margin-right: 2px; }
+.wb .chips-inline { display: inline-flex; gap: 4px; flex-wrap: wrap; }
+.wb .crumb { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.wb .card.cand { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+.wb .column-head a.title { cursor: pointer; }
+.wb .column-head a.title:hover { text-decoration: underline; text-decoration-color: var(--t-border-color-strong); }
+.wb .node-card { cursor: default; transition: border-color .12s ease, box-shadow .12s ease; }
+.wb .node-card.lit { border-color: var(--t-tag-text-purple); box-shadow: 0 0 0 3px var(--t-tag-background-purple); }
+.wb .cite-ref {
+  font: 500 11px/16px ui-monospace, SFMono-Regular, Menlo, monospace; padding: 0 4px; border-radius: 4px;
+  background: var(--t-background-primary); color: var(--t-tag-text-purple); cursor: default;
+  border: 1px solid color-mix(in srgb, var(--t-tag-text-purple) 30%, transparent);
+}
+.wb .cite-ref:hover { background: var(--t-tag-text-purple); color: #fff; }
+.wb table.cmp td { white-space: normal; height: auto; padding-top: 6px; padding-bottom: 6px; }
+.wb table.cmp .ev { display: flex; flex-wrap: wrap; gap: 4px; }
+.wb table.cmp .chip b { font-weight: 500; color: var(--t-font-color-primary); }
+.wb table.cmp .chip .weight { margin-left: 2px; }
+.wb table.cmp tr.lit td { background: var(--t-tag-background-purple); }
+.wb table.cmp tr.cited .icon.cite { margin-left: 6px; vertical-align: -2px; }
+.wb table.cmp tbody tr { cursor: default; }
+.wb .answer.readonly { position: static; margin-top: 8px; }
+.wb .answer.readonly .btn[disabled] { opacity: .55; }
+.wb .review { padding-bottom: 4px; }
+.wb .records td .chip { vertical-align: 1px; }
+
+.explorer-page { height: calc(100vh - var(--header-h)); padding: 0 8px 8px; }
+.explorer-page .wb { border-radius: 12px; border: 1px solid var(--line); }
+.explorer-foot { padding: 6px 12px 10px; font-size: 12px; color: var(--ink-3); }
+
+@media (max-width: 860px) {
+  .wb .shell { grid-template-columns: 1fr; }
+  .wb .sidebar { display: none; }
+  .wb .main { margin: 0; }
+  .wb .record { grid-template-columns: 1fr; }
+  .wb .record-fields { border-right: 0; border-bottom: 1px solid var(--t-border-color-light); }
+}
+.wb .name-chip.static:hover { background: var(--t-background-transparent-lighter); }

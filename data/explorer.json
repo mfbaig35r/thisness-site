@@ -1,0 +1,5125 @@
+{
+ "store": {
+  "observations": 3507,
+  "entities": 1386,
+  "openReviews": 177
+ },
+ "attribution": "Real UK companies from the GLEIF Golden Copy (CC0 1.0) and Companies House (Open Government Licence v3.0). Supplier-file records are generated from the true company.",
+ "entities": [
+  {
+   "id": "org_01M3253NVGVSDBJ0PDDQX86BA2",
+   "type": "organization",
+   "state": "active",
+   "label": "HISCOX INSURANCE COMPANY LIMITED",
+   "asOfSeq": 8581,
+   "memberCount": 5,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "HISCOX INSURANCE COMPANY LIMITED",
+     "observed": 5,
+     "values": [
+      {
+       "value": "HISCOX INSURANCE COMPANY LIMITED",
+       "count": 5,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         2
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "UNITED KINGDOM",
+     "observed": 5,
+     "values": [
+      {
+       "value": "UNITED KINGDOM",
+       "count": 5,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         2
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "LONDON",
+     "observed": 5,
+     "values": [
+      {
+       "value": "LONDON",
+       "count": 5,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         2
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "EC2N 4BQ",
+     "observed": 5,
+     "values": [
+      {
+       "value": "EC2N 4BQ",
+       "count": 5,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         2
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "22 BISHOPSGATE",
+     "observed": 4,
+     "values": [
+      {
+       "value": "22 BISHOPSGATE",
+       "count": 4,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250V04G7KYHRJXJG7DJ13N",
+     "source": {
+      "type": "companies_house",
+      "id": "rec000004"
+     },
+     "attributes": {
+      "address_line": "22 BISHOPSGATE",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "HISCOX INSURANCE COMPANY LIMITED",
+      "postal_code": "EC2N 4BQ"
+     }
+    },
+    {
+     "id": "obs_01M3250V052R00K6AGV0VFCXEC",
+     "source": {
+      "type": "gleif",
+      "id": "rec000005"
+     },
+     "attributes": {
+      "address_line": "22 BISHOPSGATE",
+      "city": "LONDON",
+      "country": "GB",
+      "name": "HISCOX INSURANCE COMPANY LIMITED",
+      "postal_code": "EC2N 4BQ"
+     }
+    },
+    {
+     "id": "obs_01M3250V0627H6P3AMKDQG6STT",
+     "source": {
+      "type": "erp",
+      "id": "rec000006"
+     },
+     "attributes": {
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "HISCOX INSURANCE COMPANY LIMITED",
+      "postal_code": "ec2n 4bq"
+     }
+    },
+    {
+     "id": "obs_01M3250V07HM8HEE7QV4YSR5S4",
+     "source": {
+      "type": "accounts_payable",
+      "id": "rec000007"
+     },
+     "attributes": {
+      "address_line": "22 BISHOPSGATE",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "HISCOX INSURANCE COMPANY LIMITED",
+      "postal_code": "ec2n 4bq"
+     }
+    },
+    {
+     "id": "obs_01M3250V08TEP0Y8EXPSPATJH6",
+     "source": {
+      "type": "erp",
+      "id": "rec000008"
+     },
+     "attributes": {
+      "address_line": "22 BISHOPSGATE",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "HISCOX INSURANCE COMPANY LIMITED",
+      "postal_code": "EC2N 4BQ"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 3517,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253NVFGTTAJRZ52V296B09"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "5 observations joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RJ27Z8XCBYKRK50K2W6"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253NYPGGHJSWBBTJVHMDJE",
+     "label": "LLOYDS BANK INSURANCE SERVICES LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253NYRV81JA0FTGZTMJNK0",
+     "label": "Lloyds Tsb Insurance Services Ltd",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253P7A7BN4BYK8GKKX20JA",
+     "label": "HISCOX INSURANCE HOLDINGS LIMITED",
+     "signals": [
+      "name/token_subset"
+     ]
+    },
+    {
+     "other": "org_01M3253RG0S5PA26FF20RWJ415",
+     "label": "GIBBS GULF INSURANCE CONSULTANTS LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253RAE9XNDNH1BM5TA399E",
+   "type": "organization",
+   "state": "active",
+   "label": "ROYAL LONDON POOLED PENSIONS COMPANY LIMITED",
+   "asOfSeq": 8581,
+   "memberCount": 1,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "ROYAL LONDON POOLED PENSIONS COMPANY LIMITED",
+     "observed": 1,
+     "values": [
+      {
+       "value": "ROYAL LONDON POOLED PENSIONS COMPANY LIMITED",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250Y4Z1H8XR0MGV4JW0MTV",
+     "source": {
+      "type": "companies_house",
+      "id": "rec003231"
+     },
+     "attributes": {
+      "name": "ROYAL LONDON POOLED PENSIONS COMPANY LIMITED"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 8007,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253RADYJ4T0G4D6C47PTWP"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "1 observation joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RW623V1SP4SGCNAQ7GA"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253Q3WCMNEFZSY2T8CQAB0",
+     "label": "LLOYDS BANKING GROUP PENSIONS TRUSTEES LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253QKYDNZRR06Z32EX17QA",
+     "label": "ROYAL LONDON HOUSE LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253RAGZ1TTRE7HS67H39D2",
+   "type": "organization",
+   "state": "active",
+   "label": "ROYAL LONDON POOLED PENSIONS COMPANY Ltd",
+   "asOfSeq": 8581,
+   "memberCount": 1,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "ROYAL LONDON POOLED PENSIONS COMPANY Ltd",
+     "observed": 1,
+     "values": [
+      {
+       "value": "ROYAL LONDON POOLED PENSIONS COMPANY Ltd",
+       "count": 1,
+       "sources": [
+        [
+         "erp",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250Y50HY8WJNHH17N359VE",
+     "source": {
+      "type": "erp",
+      "id": "rec003232"
+     },
+     "attributes": {
+      "name": "ROYAL LONDON POOLED PENSIONS COMPANY Ltd"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 8009,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253RAFZNZ6FX5JS2WVZTNX"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "1 observation joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RW623V1SP4SGCNAQ7GA"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253Q3WCMNEFZSY2T8CQAB0",
+     "label": "LLOYDS BANKING GROUP PENSIONS TRUSTEES LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253QKYDNZRR06Z32EX17QA",
+     "label": "ROYAL LONDON HOUSE LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253RAJR81FW7R6RV4S7F0F",
+   "type": "organization",
+   "state": "active",
+   "label": "ROYAL LONDON POOLED PENSIONS co Limited",
+   "asOfSeq": 8581,
+   "memberCount": 1,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "ROYAL LONDON POOLED PENSIONS co Limited",
+     "observed": 1,
+     "values": [
+      {
+       "value": "ROYAL LONDON POOLED PENSIONS co Limited",
+       "count": 1,
+       "sources": [
+        [
+         "erp",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250Y51FWNJ8Y7BYA23QXW1",
+     "source": {
+      "type": "erp",
+      "id": "rec003233"
+     },
+     "attributes": {
+      "name": "ROYAL LONDON POOLED PENSIONS co Limited"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 8011,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253RAH38027X30NBZJZYMA"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "1 observation joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RW623V1SP4SGCNAQ7GA"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253Q3WCMNEFZSY2T8CQAB0",
+     "label": "LLOYDS BANKING GROUP PENSIONS TRUSTEES LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253QKYDNZRR06Z32EX17QA",
+     "label": "ROYAL LONDON HOUSE LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253RAM480QGGGNDX5KVPE6",
+   "type": "organization",
+   "state": "active",
+   "label": "royal london pooled pensions company limited",
+   "asOfSeq": 8581,
+   "memberCount": 1,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "royal london pooled pensions company limited",
+     "observed": 1,
+     "values": [
+      {
+       "value": "royal london pooled pensions company limited",
+       "count": 1,
+       "sources": [
+        [
+         "erp",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250Y52C8GB0E0WYCPCZK14",
+     "source": {
+      "type": "erp",
+      "id": "rec003234"
+     },
+     "attributes": {
+      "name": "royal london pooled pensions company limited"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 8013,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253RAKNZT11V2AW1A7SNRK"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "1 observation joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RW623V1SP4SGCNAQ7GA"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253Q3WCMNEFZSY2T8CQAB0",
+     "label": "LLOYDS BANKING GROUP PENSIONS TRUSTEES LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253QKYDNZRR06Z32EX17QA",
+     "label": "ROYAL LONDON HOUSE LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253PK4KQXDENKNMD448V3Y",
+   "type": "organization",
+   "state": "active",
+   "label": "Gym",
+   "asOfSeq": 8581,
+   "memberCount": 3,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "Gym",
+     "observed": 3,
+     "values": [
+      {
+       "value": "Gym",
+       "count": 3,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "UNITED KINGDOM",
+     "observed": 3,
+     "values": [
+      {
+       "value": "UNITED KINGDOM",
+       "count": 3,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "LONDON",
+     "observed": 3,
+     "values": [
+      {
+       "value": "LONDON",
+       "count": 3,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "SW11 1QN",
+     "observed": 3,
+     "values": [
+      {
+       "value": "SW11 1QN",
+       "count": 3,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "2ND FLOOR, ARDING & HOBBS, 7 ST. JOHN'S ROAD",
+     "observed": 2,
+     "values": [
+      {
+       "value": "2ND FLOOR, ARDING & HOBBS, 7 ST. JOHN'S ROAD",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      },
+      {
+       "value": "2ND FLOOR, ARDING & HOBBS",
+       "count": 1,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250VY5ACFYFRQ60Y88HV4A",
+     "source": {
+      "type": "companies_house",
+      "id": "rec000965"
+     },
+     "attributes": {
+      "address_line": "2ND FLOOR, ARDING & HOBBS, 7 ST. JOHN'S ROAD",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "THE GYM LIMITED",
+      "postal_code": "SW11 1QN"
+     }
+    },
+    {
+     "id": "obs_01M3250VY64FRZ2KRGSF4BDFGZ",
+     "source": {
+      "type": "accounts_payable",
+      "id": "rec000966"
+     },
+     "attributes": {
+      "address_line": "2ND FLOOR, ARDING & HOBBS",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "Gym",
+      "postal_code": "SW11 1QN"
+     }
+    },
+    {
+     "id": "obs_01M3250VY7B1DX9MF9D63XH28Q",
+     "source": {
+      "type": "crm",
+      "id": "rec000967"
+     },
+     "attributes": {
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "Gym",
+      "postal_code": "SW11 1QN"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 4856,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253PK3Q6R5PW2KW4DCDSQH"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "3 observations joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RP6NTBFGVNHRFNA9XR4"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253PWYTGCQNPXYKDH92H69",
+     "label": "THE GYM GROUP PLC",
+     "signals": [
+      "name/token_subset"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253PWYTGCQNPXYKDH92H69",
+   "type": "organization",
+   "state": "active",
+   "label": "THE GYM GROUP PLC",
+   "asOfSeq": 8581,
+   "memberCount": 3,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "THE GYM GROUP PLC",
+     "observed": 3,
+     "values": [
+      {
+       "value": "THE GYM GROUP PLC",
+       "count": 3,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "UNITED KINGDOM",
+     "observed": 3,
+     "values": [
+      {
+       "value": "UNITED KINGDOM",
+       "count": 3,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "LONDON",
+     "observed": 3,
+     "values": [
+      {
+       "value": "LONDON",
+       "count": 3,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "SW11 1QN",
+     "observed": 3,
+     "values": [
+      {
+       "value": "SW11 1QN",
+       "count": 3,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "2ND FLOOR, ARDING & HOBBS, 7 ST. JOHN'S ROAD",
+     "observed": 2,
+     "values": [
+      {
+       "value": "2ND FLOOR, ARDING & HOBBS, 7 ST. JOHN'S ROAD",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      },
+      {
+       "value": "2ND FLOOR, ARDING & HOBBS",
+       "count": 1,
+       "sources": [
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250WAH61AKHEC1GXAPPAEX",
+     "source": {
+      "type": "companies_house",
+      "id": "rec001361"
+     },
+     "attributes": {
+      "address_line": "2ND FLOOR, ARDING & HOBBS, 7 ST. JOHN'S ROAD",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "THE GYM GROUP PLC",
+      "postal_code": "SW11 1QN"
+     }
+    },
+    {
+     "id": "obs_01M3250WAJC8BRQG8ZYY1JZRZJ",
+     "source": {
+      "type": "gleif",
+      "id": "rec001362"
+     },
+     "attributes": {
+      "address_line": "2ND FLOOR, ARDING & HOBBS",
+      "city": "LONDON",
+      "country": "GB",
+      "name": "THE GYM GROUP PLC",
+      "postal_code": "SW11 1QN"
+     }
+    },
+    {
+     "id": "obs_01M3250WAKCNZ9BVTQGFW3G5FN",
+     "source": {
+      "type": "accounts_payable",
+      "id": "rec001363"
+     },
+     "attributes": {
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "The Gym Group Plc",
+      "postal_code": "SW111QN"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 5409,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253PWXP93MSE2SQNFQENP4"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "3 observations joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RP6NTBFGVNHRFNA9XR4"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253PK4KQXDENKNMD448V3Y",
+     "label": "Gym",
+     "signals": [
+      "name/token_subset"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253P22KPJTYSNV2PR4T84C",
+   "type": "organization",
+   "state": "active",
+   "label": "ASSOCIATED BRITISH PORTS HOLDINGS LIMITED",
+   "asOfSeq": 8581,
+   "memberCount": 5,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "ASSOCIATED BRITISH PORTS HOLDINGS LIMITED",
+     "observed": 5,
+     "values": [
+      {
+       "value": "ASSOCIATED BRITISH PORTS HOLDINGS LIMITED",
+       "count": 5,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "erp",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "UNITED KINGDOM",
+     "observed": 5,
+     "values": [
+      {
+       "value": "UNITED KINGDOM",
+       "count": 5,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "erp",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "LONDON",
+     "observed": 5,
+     "values": [
+      {
+       "value": "LONDON",
+       "count": 5,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "erp",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "WC2E 9ES",
+     "observed": 5,
+     "values": [
+      {
+       "value": "WC2E 9ES",
+       "count": 5,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "erp",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "25 BEDFORD STREET",
+     "observed": 5,
+     "values": [
+      {
+       "value": "25 BEDFORD STREET",
+       "count": 5,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "erp",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250V8QW7JFEDFFWR4D300H",
+     "source": {
+      "type": "companies_house",
+      "id": "rec000279"
+     },
+     "attributes": {
+      "address_line": "25 BEDFORD STREET",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "ASSOCIATED BRITISH PORTS HOLDINGS LIMITED",
+      "postal_code": "WC2E 9ES"
+     }
+    },
+    {
+     "id": "obs_01M3250V8RBD4KFHGEK17KX22Y",
+     "source": {
+      "type": "gleif",
+      "id": "rec000280"
+     },
+     "attributes": {
+      "address_line": "25 BEDFORD STREET",
+      "city": "LONDON",
+      "country": "GB",
+      "name": "ASSOCIATED BRITISH PORTS HOLDINGS LIMITED",
+      "postal_code": "WC2E 9ES"
+     }
+    },
+    {
+     "id": "obs_01M3250V8SAQC00HGDD4QDCN0H",
+     "source": {
+      "type": "crm",
+      "id": "rec000281"
+     },
+     "attributes": {
+      "address_line": "25 BEDFORD STREET",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "associated british ports holdings ltd",
+      "postal_code": "wc2e 9es"
+     }
+    },
+    {
+     "id": "obs_01M3250V8TF611AYET19GV4J0C",
+     "source": {
+      "type": "erp",
+      "id": "rec000282"
+     },
+     "attributes": {
+      "address_line": "25 BEDFORD STREET",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "ASSOCIATED BRITISH PORTS HOLDINGS Ltd.",
+      "postal_code": "WC2E9ES"
+     }
+    },
+    {
+     "id": "obs_01M3250V8VMZR81D94993PFRFT",
+     "source": {
+      "type": "accounts_payable",
+      "id": "rec000283"
+     },
+     "attributes": {
+      "address_line": "25 BEDFORD STREET",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "ASSOCIATED BRITISH PORTS HOLDINGS Ltd",
+      "postal_code": "wc2e 9es"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 3897,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253P21T43CEC8SR64AWX25"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "5 observations joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RKPYFYPV49BNP222E2M"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253NVMRVYG8WWC683WWJP0",
+     "label": "ASSOCIATED BRITISH ENGINEERING PLC",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253NWMK1XRKKRN5XWYCTPH",
+     "label": "ASSOCIATED BRITISH FOODS PLC",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253NXGDQBXYMYZJ9RFHE75",
+     "label": "ASSOCIATED BRITISH FOODS PENSION TRUSTEES LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253NY6NSYY1S8MM7B2SZYN",
+     "label": "ASSOCIATED BRITISH BULBS",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253P3EC594Q3VWTXYSZN28",
+     "label": "ASSOCIATED BRITISH PORTS INVESTMENTS LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253P3EC594Q3VWTXYSZN28",
+   "type": "organization",
+   "state": "active",
+   "label": "ASSOCIATED BRITISH PORTS INVESTMENTS LIMITED",
+   "asOfSeq": 8581,
+   "memberCount": 2,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "ASSOCIATED BRITISH PORTS INVESTMENTS LIMITED",
+     "observed": 2,
+     "values": [
+      {
+       "value": "ASSOCIATED BRITISH PORTS INVESTMENTS LIMITED",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "UNITED KINGDOM",
+     "observed": 2,
+     "values": [
+      {
+       "value": "UNITED KINGDOM",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "LONDON",
+     "observed": 2,
+     "values": [
+      {
+       "value": "LONDON",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "WC2E 9ES",
+     "observed": 2,
+     "values": [
+      {
+       "value": "WC2E 9ES",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "25 BEDFORD STREET",
+     "observed": 2,
+     "values": [
+      {
+       "value": "25 BEDFORD STREET",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250VA5MSGVTSB81GXH31ES",
+     "source": {
+      "type": "companies_house",
+      "id": "rec000325"
+     },
+     "attributes": {
+      "address_line": "25 BEDFORD STREET",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "ASSOCIATED BRITISH PORTS INVESTMENTS LIMITED",
+      "postal_code": "WC2E 9ES"
+     }
+    },
+    {
+     "id": "obs_01M3250VA6FSSQBP6RMKWWKHKS",
+     "source": {
+      "type": "erp",
+      "id": "rec000326"
+     },
+     "attributes": {
+      "address_line": "25 BEDFORD STREET",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "name": "ASSOCIATED BRITISH PORTS INVESTMENTS Ltd",
+      "postal_code": "WC2E 9ES"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 3965,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253P3D5NJB9RWN8FEN0WEB"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "2 observations joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RKPYFYPV49BNP222E2M"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253NVMRVYG8WWC683WWJP0",
+     "label": "ASSOCIATED BRITISH ENGINEERING PLC",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253NWMK1XRKKRN5XWYCTPH",
+     "label": "ASSOCIATED BRITISH FOODS PLC",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253NXGDQBXYMYZJ9RFHE75",
+     "label": "ASSOCIATED BRITISH FOODS PENSION TRUSTEES LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253NY6NSYY1S8MM7B2SZYN",
+     "label": "ASSOCIATED BRITISH BULBS",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253P22KPJTYSNV2PR4T84C",
+     "label": "ASSOCIATED BRITISH PORTS HOLDINGS LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253Q0PNN7P4D7T98GCXDPX",
+   "type": "organization",
+   "state": "active",
+   "label": "HALEON UK FINANCE LIMITED",
+   "asOfSeq": 8581,
+   "memberCount": 3,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "HALEON UK FINANCE LIMITED",
+     "observed": 3,
+     "values": [
+      {
+       "value": "HALEON UK FINANCE LIMITED",
+       "count": 3,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "ENGLAND",
+     "observed": 3,
+     "values": [
+      {
+       "value": "ENGLAND",
+       "count": 3,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "WEYBRIDGE",
+     "observed": 3,
+     "values": [
+      {
+       "value": "WEYBRIDGE",
+       "count": 3,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "KT13 0NY",
+     "observed": 3,
+     "values": [
+      {
+       "value": "KT13 0NY",
+       "count": 3,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+     "observed": 3,
+     "values": [
+      {
+       "value": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      },
+      {
+       "value": "BUILDING 5, FIRST FLOOR",
+       "count": 1,
+       "sources": [
+        [
+         "crm",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250WFD7NYCW4463Q5R26HW",
+     "source": {
+      "type": "companies_house",
+      "id": "rec001517"
+     },
+     "attributes": {
+      "address_line": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+      "city": "WEYBRIDGE",
+      "country": "ENGLAND",
+      "name": "HALEON UK FINANCE LIMITED",
+      "postal_code": "KT13 0NY"
+     }
+    },
+    {
+     "id": "obs_01M3250WFEB9C5WBYHGRMC5HFK",
+     "source": {
+      "type": "gleif",
+      "id": "rec001518"
+     },
+     "attributes": {
+      "address_line": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+      "city": "WEYBRIDGE",
+      "country": "GB",
+      "name": "HALEON UK FINANCE LIMITED",
+      "postal_code": "KT13 0NY"
+     }
+    },
+    {
+     "id": "obs_01M3250WFGYNCT275BVSG7R6B6",
+     "source": {
+      "type": "crm",
+      "id": "rec001520"
+     },
+     "attributes": {
+      "address_line": "BUILDING 5, FIRST FLOOR",
+      "city": "WEYBRIDGE",
+      "country": "ENGLAND",
+      "name": "Haleon Uk Finance Limited",
+      "postal_code": "KT130NY"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 5625,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253Q0N8BA3HDJYDY496MRF"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "3 observations joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RRAYKQE6A9GSRD052HK"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253Q0RAYK0B7A507TNF7T9",
+     "label": "HALEON UK FINANCE LIMITaED",
+     "signals": [
+      "name/token_subset"
+     ]
+    },
+    {
+     "other": "org_01M3253Q5R7QXHKPWMCSHEMT8M",
+     "label": "HALEON UK FINANCE (USD) LIMITED",
+     "signals": [
+      "name/token_subset"
+     ]
+    },
+    {
+     "other": "org_01M3253QH8EJ8EF5YZGQA8Q56F",
+     "label": "HALEON UK CAPITAL PLC",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253Q0RAYK0B7A507TNF7T9",
+   "type": "organization",
+   "state": "active",
+   "label": "HALEON UK FINANCE LIMITaED",
+   "asOfSeq": 8581,
+   "memberCount": 1,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "HALEON UK FINANCE LIMITaED",
+     "observed": 1,
+     "values": [
+      {
+       "value": "HALEON UK FINANCE LIMITaED",
+       "count": 1,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "ENGLAND",
+     "observed": 1,
+     "values": [
+      {
+       "value": "ENGLAND",
+       "count": 1,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "WEYBRIDGE",
+     "observed": 1,
+     "values": [
+      {
+       "value": "WEYBRIDGE",
+       "count": 1,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250WFFCYWBHWWD3CVPNYT3",
+     "source": {
+      "type": "accounts_payable",
+      "id": "rec001519"
+     },
+     "attributes": {
+      "city": "WEYBRIDGE",
+      "country": "ENGLAND",
+      "name": "HALEON UK FINANCE LIMITaED"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 5629,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253Q0QT0J93W9QHG025X43"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "1 observation joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RRAYKQE6A9GSRD052HK"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253Q0PNN7P4D7T98GCXDPX",
+     "label": "HALEON UK FINANCE LIMITED",
+     "signals": [
+      "name/token_subset"
+     ]
+    },
+    {
+     "other": "org_01M3253Q5R7QXHKPWMCSHEMT8M",
+     "label": "HALEON UK FINANCE (USD) LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253QH8EJ8EF5YZGQA8Q56F",
+     "label": "HALEON UK CAPITAL PLC",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253Q5R7QXHKPWMCSHEMT8M",
+   "type": "organization",
+   "state": "active",
+   "label": "HALEON UK FINANCE (USD) LIMITED",
+   "asOfSeq": 8581,
+   "memberCount": 1,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "HALEON UK FINANCE (USD) LIMITED",
+     "observed": 1,
+     "values": [
+      {
+       "value": "HALEON UK FINANCE (USD) LIMITED",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "ENGLAND",
+     "observed": 1,
+     "values": [
+      {
+       "value": "ENGLAND",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "WEYBRIDGE",
+     "observed": 1,
+     "values": [
+      {
+       "value": "WEYBRIDGE",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "KT13 0NY",
+     "observed": 1,
+     "values": [
+      {
+       "value": "KT13 0NY",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+     "observed": 1,
+     "values": [
+      {
+       "value": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250WP7BYA261BTS8BXCR6H",
+     "source": {
+      "type": "companies_house",
+      "id": "rec001735"
+     },
+     "attributes": {
+      "address_line": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+      "city": "WEYBRIDGE",
+      "country": "ENGLAND",
+      "name": "HALEON UK FINANCE (USD) LIMITED",
+      "postal_code": "KT13 0NY"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 5924,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253Q5QJPRMT1KJQ7MY9PRE"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "1 observation joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RRAYKQE6A9GSRD052HK"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253Q0PNN7P4D7T98GCXDPX",
+     "label": "HALEON UK FINANCE LIMITED",
+     "signals": [
+      "name/token_subset"
+     ]
+    },
+    {
+     "other": "org_01M3253Q0RAYK0B7A507TNF7T9",
+     "label": "HALEON UK FINANCE LIMITaED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253QH8EJ8EF5YZGQA8Q56F",
+     "label": "HALEON UK CAPITAL PLC",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253R5R9TW98G7P9D54D36N",
+     "label": "KKR LENDING PARTNERS EUROPE (USD) L.P.",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253RDGRJRW2ZZYJJ8GK1PE",
+     "label": "PARTNERS GROUP REAL ESTATE SECONDARY 2009 (USD) A, L.P.",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253RDTSG9ZX2PRCVXKYAVF",
+     "label": "PARTNERS GROUP REAL ESTATE SECONDARY 2009 (CLASS P USD), L.P.",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253RDYQYHJP085X06ZCGCA",
+     "label": "PARTNERS GROUP REAL ESTATE SECONDARY 2009 (USD) C, L.P.",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253QH8EJ8EF5YZGQA8Q56F",
+   "type": "organization",
+   "state": "active",
+   "label": "HALEON UK CAPITAL PLC",
+   "asOfSeq": 8581,
+   "memberCount": 2,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "HALEON UK CAPITAL PLC",
+     "observed": 2,
+     "values": [
+      {
+       "value": "HALEON UK CAPITAL PLC",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "ENGLAND",
+     "observed": 2,
+     "values": [
+      {
+       "value": "ENGLAND",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "WEYBRIDGE",
+     "observed": 2,
+     "values": [
+      {
+       "value": "WEYBRIDGE",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "KT13 0NY",
+     "observed": 2,
+     "values": [
+      {
+       "value": "KT13 0NY",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+     "observed": 2,
+     "values": [
+      {
+       "value": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      },
+      {
+       "value": "BUILDING 5, FIRST FLOOR",
+       "count": 1,
+       "sources": [
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250X5KYC5NVV8V510SG67J",
+     "source": {
+      "type": "companies_house",
+      "id": "rec002227"
+     },
+     "attributes": {
+      "address_line": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+      "city": "WEYBRIDGE",
+      "country": "ENGLAND",
+      "name": "HALEON UK CAPITAL PLC",
+      "postal_code": "KT13 0NY"
+     }
+    },
+    {
+     "id": "obs_01M3250X5MCXD4H4K4NGS9TMSM",
+     "source": {
+      "type": "gleif",
+      "id": "rec002228"
+     },
+     "attributes": {
+      "address_line": "BUILDING 5, FIRST FLOOR",
+      "city": "WEYBRIDGE",
+      "country": "GB",
+      "name": "HALEON UK CAPITAL PLC",
+      "postal_code": "KT13 0NY"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 6600,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253QH79SQKXBNXTZY86QXA"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "2 observations joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RRAYKQE6A9GSRD052HK"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253Q0PNN7P4D7T98GCXDPX",
+     "label": "HALEON UK FINANCE LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253Q0RAYK0B7A507TNF7T9",
+     "label": "HALEON UK FINANCE LIMITaED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253Q5R7QXHKPWMCSHEMT8M",
+     "label": "HALEON UK FINANCE (USD) LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253P4YPYE7NGCRFVRHSYJP",
+   "type": "organization",
+   "state": "active",
+   "label": "SSE SERVICES PLC",
+   "asOfSeq": 8581,
+   "memberCount": 3,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "SSE SERVICES PLC",
+     "observed": 3,
+     "values": [
+      {
+       "value": "SSE SERVICES PLC",
+       "count": 3,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "UNITED KINGDOM",
+     "observed": 3,
+     "values": [
+      {
+       "value": "UNITED KINGDOM",
+       "count": 3,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "READING",
+     "observed": 3,
+     "values": [
+      {
+       "value": "READING",
+       "count": 3,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "RG1 3JH",
+     "observed": 3,
+     "values": [
+      {
+       "value": "RG1 3JH",
+       "count": 3,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "NO.1 FORBURY PLACE, 43 FORBURY ROAD",
+     "observed": 3,
+     "values": [
+      {
+       "value": "NO.1 FORBURY PLACE",
+       "count": 2,
+       "sources": [
+        [
+         "crm",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      },
+      {
+       "value": "NO.1 FORBURY PLACE, 43 FORBURY ROAD",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250VC4EDNPJBYKC2XQPWWE",
+     "source": {
+      "type": "companies_house",
+      "id": "rec000388"
+     },
+     "attributes": {
+      "address_line": "NO.1 FORBURY PLACE, 43 FORBURY ROAD",
+      "city": "READING",
+      "country": "UNITED KINGDOM",
+      "name": "SSE SERVICES PLC",
+      "postal_code": "RG1 3JH"
+     }
+    },
+    {
+     "id": "obs_01M3250VC54DWW1BPSRPEPP0HZ",
+     "source": {
+      "type": "gleif",
+      "id": "rec000389"
+     },
+     "attributes": {
+      "address_line": "No.1 Forbury Place",
+      "city": "Reading",
+      "country": "GB",
+      "name": "SSE SERVICES PLC",
+      "postal_code": "RG1 3JH"
+     }
+    },
+    {
+     "id": "obs_01M3250VC6952DX5HADPJFTNY5",
+     "source": {
+      "type": "crm",
+      "id": "rec000390"
+     },
+     "attributes": {
+      "address_line": "NO.1 FORBURY PLACE",
+      "city": "READING",
+      "country": "UNITED KINGDOM",
+      "name": "Sse Services P.L.C.",
+      "postal_code": "rg1 3jh"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 4052,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253P4X4KR6N7HXMD111YEB"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "3 observations joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RM46ZCRKV10J4VBNWTM"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253Q88HNPPFNFT21N7DQ6H",
+     "label": "SSE HOLDINGS LTD",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253RB4VB5TBBBV25MHAJBT",
+     "label": "SSE PLC",
+     "signals": [
+      "name/token_subset"
+     ]
+    },
+    {
+     "other": "org_01M3253RB8V3CRDS2CXYRWNNGK",
+     "label": "SSE GROUP LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253Q88HNPPFNFT21N7DQ6H",
+   "type": "organization",
+   "state": "active",
+   "label": "SSE HOLDINGS LTD",
+   "asOfSeq": 8581,
+   "memberCount": 2,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "SSE HOLDINGS LTD",
+     "observed": 2,
+     "values": [
+      {
+       "value": "SSE HOLDINGS LTD",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "ENGLAND",
+     "observed": 2,
+     "values": [
+      {
+       "value": "ENGLAND",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "HARLOW",
+     "observed": 2,
+     "values": [
+      {
+       "value": "HARLOW",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "CM17 0ET",
+     "observed": 2,
+     "values": [
+      {
+       "value": "CM17 0ET",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "10-12 MULBERRY GREEN",
+     "observed": 2,
+     "values": [
+      {
+       "value": "10-12 MULBERRY GREEN",
+       "count": 2,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "crm",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250WSS35YTBTBW8A07V4YX",
+     "source": {
+      "type": "companies_house",
+      "id": "rec001849"
+     },
+     "attributes": {
+      "address_line": "10-12 MULBERRY GREEN",
+      "city": "HARLOW",
+      "country": "ENGLAND",
+      "name": "SSE HOLDINGS LTD",
+      "postal_code": "CM17 0ET"
+     }
+    },
+    {
+     "id": "obs_01M3250WSTQFG3VRK37MS5Q9FB",
+     "source": {
+      "type": "crm",
+      "id": "rec001850"
+     },
+     "attributes": {
+      "address_line": "10-12 MULBERRY GREEN",
+      "city": "HARLOW",
+      "country": "ENGLAND",
+      "name": "Sse Holdings",
+      "postal_code": "cm17 0et"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 6078,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253Q87PRRQAZ815Z62GF6N"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "2 observations joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RM46ZCRKV10J4VBNWTM"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253P4YPYE7NGCRFVRHSYJP",
+     "label": "SSE SERVICES PLC",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253RB4VB5TBBBV25MHAJBT",
+     "label": "SSE PLC",
+     "signals": [
+      "name/token_subset"
+     ]
+    },
+    {
+     "other": "org_01M3253RB8V3CRDS2CXYRWNNGK",
+     "label": "SSE GROUP LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253RB4VB5TBBBV25MHAJBT",
+   "type": "organization",
+   "state": "active",
+   "label": "SSE PLC",
+   "asOfSeq": 8581,
+   "memberCount": 4,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "SSE PLC",
+     "observed": 4,
+     "values": [
+      {
+       "value": "SSE PLC",
+       "count": 3,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      },
+      {
+       "value": "SCOTTISH AND SOUTHERN ENERGY plc",
+       "count": 1,
+       "sources": [
+        [
+         "erp",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "country",
+     "canonical": "GB",
+     "observed": 3,
+     "values": [
+      {
+       "value": "GB",
+       "count": 3,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "erp",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "PERTH",
+     "observed": 4,
+     "values": [
+      {
+       "value": "PERTH",
+       "count": 4,
+       "sources": [
+        [
+         "accounts_payable",
+         1
+        ],
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "PH1 3AQ",
+     "observed": 3,
+     "values": [
+      {
+       "value": "PH1 3AQ",
+       "count": 3,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ],
+        [
+         "erp",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "INVERALMOND HOUSE",
+     "observed": 3,
+     "values": [
+      {
+       "value": "INVERALMOND HOUSE",
+       "count": 2,
+       "sources": [
+        [
+         "erp",
+         1
+        ],
+        [
+         "gleif",
+         1
+        ]
+       ]
+      },
+      {
+       "value": "INVERALMOND HOUSE, 200 DUNKELD ROAD",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250Y5R8SPZ7EF7KSYHWDZ9",
+     "source": {
+      "type": "companies_house",
+      "id": "rec003256"
+     },
+     "attributes": {
+      "address_line": "INVERALMOND HOUSE, 200 DUNKELD ROAD",
+      "city": "PERTH",
+      "name": "SSE PLC",
+      "postal_code": "PH1 3AQ"
+     }
+    },
+    {
+     "id": "obs_01M3250Y5SZMFYRGQ8KVDW7SV3",
+     "source": {
+      "type": "gleif",
+      "id": "rec003257"
+     },
+     "attributes": {
+      "address_line": "INVERALMOND HOUSE",
+      "city": "PERTH",
+      "country": "GB",
+      "name": "SSE PLC",
+      "postal_code": "PH1 3AQ"
+     }
+    },
+    {
+     "id": "obs_01M3250Y5TXRH7VXJVKRAKV3V4",
+     "source": {
+      "type": "erp",
+      "id": "rec003258"
+     },
+     "attributes": {
+      "address_line": "INVERALMOND HOUSE",
+      "city": "PERTH",
+      "country": "GB",
+      "name": "SCOTTISH AND SOUTHERN ENERGY plc",
+      "postal_code": "PH13AQ"
+     }
+    },
+    {
+     "id": "obs_01M3250Y5V1FHC3HV31VA23Z89",
+     "source": {
+      "type": "accounts_payable",
+      "id": "rec003259"
+     },
+     "attributes": {
+      "city": "PERTH",
+      "country": "GB",
+      "name": "SSE PLC"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 8043,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253RB35YVE7P27TKWV3M8T"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "4 observations joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RM46ZCRKV10J4VBNWTM"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253P4YPYE7NGCRFVRHSYJP",
+     "label": "SSE SERVICES PLC",
+     "signals": [
+      "name/token_subset"
+     ]
+    },
+    {
+     "other": "org_01M3253Q88HNPPFNFT21N7DQ6H",
+     "label": "SSE HOLDINGS LTD",
+     "signals": [
+      "name/token_subset"
+     ]
+    },
+    {
+     "other": "org_01M3253RB6ZWJW24JH80BW110P",
+     "label": "SCOTTISH POWER UK PLC",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253RB8V3CRDS2CXYRWNNGK",
+     "label": "SSE GROUP LIMITED",
+     "signals": [
+      "name/token_subset"
+     ]
+    },
+    {
+     "other": "org_01M3253RBCSKXXFE3TERGMA90C",
+     "label": "SCOTTISH POWER LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253RBRF5FMEFHMP0STAAWQ",
+     "label": "SCOTTISH POWER ENERGY NETWORKS HOLDINGS LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253RBT13V6X112V3S838KZ",
+     "label": "SCOTTISH POWER RETAIL HOLDINGS LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253RBWP4QEB3XWB6MQ3VW6",
+     "label": "SCOTTISH POWER WHOLESALE & RETAIL HOLDINGS LIMITED",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "org_01M3253RB8V3CRDS2CXYRWNNGK",
+   "type": "organization",
+   "state": "active",
+   "label": "SSE GROUP LIMITED",
+   "asOfSeq": 8581,
+   "memberCount": 1,
+   "attributes": [
+    {
+     "attribute": "name",
+     "canonical": "SSE GROUP LIMITED",
+     "observed": 1,
+     "values": [
+      {
+       "value": "SSE GROUP LIMITED",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "city",
+     "canonical": "PERTH",
+     "observed": 1,
+     "values": [
+      {
+       "value": "PERTH",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "postal_code",
+     "canonical": "PH1 3AQ",
+     "observed": 1,
+     "values": [
+      {
+       "value": "PH1 3AQ",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "attribute": "address_line",
+     "canonical": "INVERALMOND HOUSE, 200 DUNKELD ROAD",
+     "observed": 1,
+     "values": [
+      {
+       "value": "INVERALMOND HOUSE, 200 DUNKELD ROAD",
+       "count": 1,
+       "sources": [
+        [
+         "companies_house",
+         1
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "members": [
+    {
+     "id": "obs_01M3250Y5ZPHXPTRJGRY0Z478S",
+     "source": {
+      "type": "companies_house",
+      "id": "rec003263"
+     },
+     "attributes": {
+      "address_line": "INVERALMOND HOUSE, 200 DUNKELD ROAD",
+      "city": "PERTH",
+      "name": "SSE GROUP LIMITED",
+      "postal_code": "PH1 3AQ"
+     }
+    }
+   ],
+   "history": [
+    {
+     "seq": 8052,
+     "actor": "resolver:thisness:organization",
+     "decisions": [
+      "dec_01M3253RB7XSPN2CGHWERE4MZY"
+     ],
+     "lines": [
+      {
+       "icon": "plus",
+       "text": "Created as active"
+      },
+      {
+       "icon": "users",
+       "text": "1 observation joined"
+      }
+     ]
+    }
+   ],
+   "reviews": [
+    "rev_01M3253RM46ZCRKV10J4VBNWTM"
+   ],
+   "relationships": [],
+   "candidates": [
+    {
+     "other": "org_01M3253P4YPYE7NGCRFVRHSYJP",
+     "label": "SSE SERVICES PLC",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253Q88HNPPFNFT21N7DQ6H",
+     "label": "SSE HOLDINGS LTD",
+     "signals": [
+      "name/qualifier_differs"
+     ]
+    },
+    {
+     "other": "org_01M3253RB4VB5TBBBV25MHAJBT",
+     "label": "SSE PLC",
+     "signals": [
+      "name/token_subset"
+     ]
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "id": "rev_01M3253RW623V1SP4SGCNAQ7GA",
+   "kind": "boundary",
+   "question": "Are these the same entity, different entities, or related ones?",
+   "board": [
+    {
+     "entityId": "org_01M3253RAE9XNDNH1BM5TA399E",
+     "name": "ROYAL LONDON POOLED PENSIONS COMPANY LIMITED",
+     "state": "active",
+     "size": 1,
+     "cards": [
+      {
+       "ref": "R1",
+       "id": "obs_01M3250Y4Z1H8XR0MGV4JW0MTV",
+       "name": "ROYAL LONDON POOLED PENSIONS COMPANY LIMITED",
+       "fields": {},
+       "source": "companies_house:rec003231"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253RAGZ1TTRE7HS67H39D2",
+     "name": "ROYAL LONDON POOLED PENSIONS COMPANY Ltd",
+     "state": "active",
+     "size": 1,
+     "cards": [
+      {
+       "ref": "R2",
+       "id": "obs_01M3250Y50HY8WJNHH17N359VE",
+       "name": "ROYAL LONDON POOLED PENSIONS COMPANY Ltd",
+       "fields": {},
+       "source": "erp:rec003232"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253RAJR81FW7R6RV4S7F0F",
+     "name": "ROYAL LONDON POOLED PENSIONS co Limited",
+     "state": "active",
+     "size": 1,
+     "cards": [
+      {
+       "ref": "R3",
+       "id": "obs_01M3250Y51FWNJ8Y7BYA23QXW1",
+       "name": "ROYAL LONDON POOLED PENSIONS co Limited",
+       "fields": {},
+       "source": "erp:rec003233"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253RAM480QGGGNDX5KVPE6",
+     "name": "royal london pooled pensions company limited",
+     "state": "active",
+     "size": 1,
+     "cards": [
+      {
+       "ref": "R4",
+       "id": "obs_01M3250Y52C8GB0E0WYCPCZK14",
+       "name": "royal london pooled pensions company limited",
+       "fields": {},
+       "source": "erp:rec003234"
+      }
+     ]
+    }
+   ],
+   "comparisons": [
+    {
+     "label": "C1",
+     "left": "R1",
+     "right": "R2",
+     "weight": 10.7,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C2",
+     "left": "R1",
+     "right": "R3",
+     "weight": 10.7,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C3",
+     "left": "R1",
+     "right": "R4",
+     "weight": 10.7,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C4",
+     "left": "R2",
+     "right": "R3",
+     "weight": 10.7,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C5",
+     "left": "R2",
+     "right": "R4",
+     "weight": 10.7,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C6",
+     "left": "R3",
+     "right": "R4",
+     "weight": 10.7,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    }
+   ],
+   "suggestion": {
+    "resolution": "same",
+    "relation": null,
+    "rationale": "All four records show the same organization name, differing only in capitalization or abbreviation of “Company Limited”; the comparisons consistently support a match (C1–C6). No conflicting identifiers or other contradictory details are shown.",
+    "groups": [
+     [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+     ]
+    ],
+    "model": "gpt-6-luna"
+   }
+  },
+  {
+   "id": "rev_01M3253RP6NTBFGVNHRFNA9XR4",
+   "kind": "boundary",
+   "question": "Are these the same entity, different entities, or related ones?",
+   "board": [
+    {
+     "entityId": "org_01M3253PK4KQXDENKNMD448V3Y",
+     "name": "Gym",
+     "state": "active",
+     "size": 3,
+     "cards": [
+      {
+       "ref": "R1",
+       "id": "obs_01M3250VY5ACFYFRQ60Y88HV4A",
+       "name": "THE GYM LIMITED",
+       "fields": {
+        "address_line": "2ND FLOOR, ARDING & HOBBS, 7 ST. JOHN'S ROAD",
+        "city": "LONDON",
+        "postal_code": "SW11 1QN",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "companies_house:rec000965"
+      },
+      {
+       "ref": "R2",
+       "id": "obs_01M3250VY64FRZ2KRGSF4BDFGZ",
+       "name": "Gym",
+       "fields": {
+        "address_line": "2ND FLOOR, ARDING & HOBBS",
+        "city": "LONDON",
+        "postal_code": "SW11 1QN",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "accounts_payable:rec000966"
+      },
+      {
+       "ref": "R3",
+       "id": "obs_01M3250VY7B1DX9MF9D63XH28Q",
+       "name": "Gym",
+       "fields": {
+        "city": "LONDON",
+        "postal_code": "SW11 1QN",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "crm:rec000967"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253PWYTGCQNPXYKDH92H69",
+     "name": "THE GYM GROUP PLC",
+     "state": "active",
+     "size": 3,
+     "cards": [
+      {
+       "ref": "R4",
+       "id": "obs_01M3250WAH61AKHEC1GXAPPAEX",
+       "name": "THE GYM GROUP PLC",
+       "fields": {
+        "address_line": "2ND FLOOR, ARDING & HOBBS, 7 ST. JOHN'S ROAD",
+        "city": "LONDON",
+        "postal_code": "SW11 1QN",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "companies_house:rec001361"
+      },
+      {
+       "ref": "R5",
+       "id": "obs_01M3250WAJC8BRQG8ZYY1JZRZJ",
+       "name": "THE GYM GROUP PLC",
+       "fields": {
+        "address_line": "2ND FLOOR, ARDING & HOBBS",
+        "city": "LONDON",
+        "postal_code": "SW11 1QN",
+        "country": "GB"
+       },
+       "source": "gleif:rec001362"
+      },
+      {
+       "ref": "R6",
+       "id": "obs_01M3250WAKCNZ9BVTQGFW3G5FN",
+       "name": "The Gym Group Plc",
+       "fields": {
+        "city": "LONDON",
+        "postal_code": "SW111QN",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "accounts_payable:rec001363"
+      }
+     ]
+    }
+   ],
+   "comparisons": [
+    {
+     "label": "C1",
+     "left": "R4",
+     "right": "R5",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C2",
+     "left": "R4",
+     "right": "R6",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C3",
+     "left": "R5",
+     "right": "R6",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C4",
+     "left": "R1",
+     "right": "R2",
+     "weight": 18.2,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      }
+     ]
+    },
+    {
+     "label": "C5",
+     "left": "R1",
+     "right": "R3",
+     "weight": 18.2,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      }
+     ]
+    },
+    {
+     "label": "C6",
+     "left": "R2",
+     "right": "R3",
+     "weight": 18.2,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      }
+     ]
+    },
+    {
+     "label": "C7",
+     "left": "R2",
+     "right": "R4",
+     "weight": 8.0,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      }
+     ]
+    },
+    {
+     "label": "C8",
+     "left": "R2",
+     "right": "R5",
+     "weight": 8.0,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      }
+     ]
+    },
+    {
+     "label": "C9",
+     "left": "R2",
+     "right": "R6",
+     "weight": 8.0,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      }
+     ]
+    },
+    {
+     "label": "C10",
+     "left": "R3",
+     "right": "R4",
+     "weight": 8.0,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      }
+     ]
+    },
+    {
+     "label": "C11",
+     "left": "R3",
+     "right": "R5",
+     "weight": 8.0,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      }
+     ]
+    },
+    {
+     "label": "C12",
+     "left": "R3",
+     "right": "R6",
+     "weight": 8.0,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      }
+     ]
+    }
+   ],
+   "suggestion": {
+    "resolution": "different",
+    "relation": null,
+    "rationale": "The records form two internally consistent groups: “THE GYM LIMITED”/“Gym” and “THE GYM GROUP PLC” (C1–C6). The shared postal location and partial name overlap provide only weak cross-group support, and the distinct registered names do not establish that these are the same organization or that they have a specific relationship (C13–C15).",
+    "groups": [
+     [
+      "R1",
+      "R2",
+      "R3"
+     ],
+     [
+      "R4",
+      "R5",
+      "R6"
+     ]
+    ],
+    "model": "gpt-6-luna"
+   }
+  },
+  {
+   "id": "rev_01M3253RKPYFYPV49BNP222E2M",
+   "kind": "boundary",
+   "question": "Are these the same entity, different entities, or related ones?",
+   "board": [
+    {
+     "entityId": "org_01M3253P22KPJTYSNV2PR4T84C",
+     "name": "ASSOCIATED BRITISH PORTS HOLDINGS LIMITED",
+     "state": "active",
+     "size": 5,
+     "cards": [
+      {
+       "ref": "R1",
+       "id": "obs_01M3250V8QW7JFEDFFWR4D300H",
+       "name": "ASSOCIATED BRITISH PORTS HOLDINGS LIMITED",
+       "fields": {
+        "address_line": "25 BEDFORD STREET",
+        "city": "LONDON",
+        "postal_code": "WC2E 9ES",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "companies_house:rec000279"
+      },
+      {
+       "ref": "R2",
+       "id": "obs_01M3250V8RBD4KFHGEK17KX22Y",
+       "name": "ASSOCIATED BRITISH PORTS HOLDINGS LIMITED",
+       "fields": {
+        "address_line": "25 BEDFORD STREET",
+        "city": "LONDON",
+        "postal_code": "WC2E 9ES",
+        "country": "GB"
+       },
+       "source": "gleif:rec000280"
+      },
+      {
+       "ref": "R3",
+       "id": "obs_01M3250V8SAQC00HGDD4QDCN0H",
+       "name": "associated british ports holdings ltd",
+       "fields": {
+        "address_line": "25 BEDFORD STREET",
+        "city": "LONDON",
+        "postal_code": "wc2e 9es",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "crm:rec000281"
+      },
+      {
+       "ref": "R4",
+       "id": "obs_01M3250V8TF611AYET19GV4J0C",
+       "name": "ASSOCIATED BRITISH PORTS HOLDINGS Ltd.",
+       "fields": {
+        "address_line": "25 BEDFORD STREET",
+        "city": "LONDON",
+        "postal_code": "WC2E9ES",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "erp:rec000282"
+      },
+      {
+       "ref": "R5",
+       "id": "obs_01M3250V8VMZR81D94993PFRFT",
+       "name": "ASSOCIATED BRITISH PORTS HOLDINGS Ltd",
+       "fields": {
+        "address_line": "25 BEDFORD STREET",
+        "city": "LONDON",
+        "postal_code": "wc2e 9es",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "accounts_payable:rec000283"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253P3EC594Q3VWTXYSZN28",
+     "name": "ASSOCIATED BRITISH PORTS INVESTMENTS LIMITED",
+     "state": "active",
+     "size": 2,
+     "cards": [
+      {
+       "ref": "R6",
+       "id": "obs_01M3250VA5MSGVTSB81GXH31ES",
+       "name": "ASSOCIATED BRITISH PORTS INVESTMENTS LIMITED",
+       "fields": {
+        "address_line": "25 BEDFORD STREET",
+        "city": "LONDON",
+        "postal_code": "WC2E 9ES",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "companies_house:rec000325"
+      },
+      {
+       "ref": "R7",
+       "id": "obs_01M3250VA6FSSQBP6RMKWWKHKS",
+       "name": "ASSOCIATED BRITISH PORTS INVESTMENTS Ltd",
+       "fields": {
+        "address_line": "25 BEDFORD STREET",
+        "city": "LONDON",
+        "postal_code": "WC2E 9ES",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "erp:rec000326"
+      }
+     ]
+    }
+   ],
+   "comparisons": [
+    {
+     "label": "C1",
+     "left": "R1",
+     "right": "R2",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C2",
+     "left": "R1",
+     "right": "R3",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C3",
+     "left": "R1",
+     "right": "R4",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C4",
+     "left": "R1",
+     "right": "R5",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C5",
+     "left": "R2",
+     "right": "R3",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C6",
+     "left": "R2",
+     "right": "R4",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C7",
+     "left": "R2",
+     "right": "R5",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C8",
+     "left": "R3",
+     "right": "R4",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C9",
+     "left": "R3",
+     "right": "R5",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C10",
+     "left": "R4",
+     "right": "R5",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C11",
+     "left": "R6",
+     "right": "R7",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C12",
+     "left": "R1",
+     "right": "R6",
+     "weight": 8.6,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "qualifier_differs",
+       "direction": "contradicts",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    }
+   ],
+   "suggestion": {
+    "resolution": "related",
+    "relation": "related_to",
+    "rationale": "R1–R5 are consistent name variants for Associated British Ports Holdings Limited, and R6–R7 are consistent variants for Associated British Ports Investments Limited (C1, C11). The different descriptors indicate distinct organizations; their shared address and possible-match comparisons support recording a relationship, but do not establish a specific parent/subsidiary direction (C12).",
+    "groups": [
+     [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+     ],
+     [
+      "R6",
+      "R7"
+     ]
+    ],
+    "model": "gpt-6-luna"
+   }
+  },
+  {
+   "id": "rev_01M3253RRAYKQE6A9GSRD052HK",
+   "kind": "boundary",
+   "question": "Are these the same entity, different entities, or related ones?",
+   "board": [
+    {
+     "entityId": "org_01M3253Q0PNN7P4D7T98GCXDPX",
+     "name": "HALEON UK FINANCE LIMITED",
+     "state": "active",
+     "size": 3,
+     "cards": [
+      {
+       "ref": "R1",
+       "id": "obs_01M3250WFD7NYCW4463Q5R26HW",
+       "name": "HALEON UK FINANCE LIMITED",
+       "fields": {
+        "address_line": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+        "city": "WEYBRIDGE",
+        "postal_code": "KT13 0NY",
+        "country": "ENGLAND"
+       },
+       "source": "companies_house:rec001517"
+      },
+      {
+       "ref": "R2",
+       "id": "obs_01M3250WFEB9C5WBYHGRMC5HFK",
+       "name": "HALEON UK FINANCE LIMITED",
+       "fields": {
+        "address_line": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+        "city": "WEYBRIDGE",
+        "postal_code": "KT13 0NY",
+        "country": "GB"
+       },
+       "source": "gleif:rec001518"
+      },
+      {
+       "ref": "R4",
+       "id": "obs_01M3250WFGYNCT275BVSG7R6B6",
+       "name": "Haleon Uk Finance Limited",
+       "fields": {
+        "address_line": "BUILDING 5, FIRST FLOOR",
+        "city": "WEYBRIDGE",
+        "postal_code": "KT130NY",
+        "country": "ENGLAND"
+       },
+       "source": "crm:rec001520"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253QH8EJ8EF5YZGQA8Q56F",
+     "name": "HALEON UK CAPITAL PLC",
+     "state": "active",
+     "size": 2,
+     "cards": [
+      {
+       "ref": "R6",
+       "id": "obs_01M3250X5KYC5NVV8V510SG67J",
+       "name": "HALEON UK CAPITAL PLC",
+       "fields": {
+        "address_line": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+        "city": "WEYBRIDGE",
+        "postal_code": "KT13 0NY",
+        "country": "ENGLAND"
+       },
+       "source": "companies_house:rec002227"
+      },
+      {
+       "ref": "R7",
+       "id": "obs_01M3250X5MCXD4H4K4NGS9TMSM",
+       "name": "HALEON UK CAPITAL PLC",
+       "fields": {
+        "address_line": "BUILDING 5, FIRST FLOOR",
+        "city": "WEYBRIDGE",
+        "postal_code": "KT13 0NY",
+        "country": "GB"
+       },
+       "source": "gleif:rec002228"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253Q0RAYK0B7A507TNF7T9",
+     "name": "HALEON UK FINANCE LIMITaED",
+     "state": "active",
+     "size": 1,
+     "cards": [
+      {
+       "ref": "R3",
+       "id": "obs_01M3250WFFCYWBHWWD3CVPNYT3",
+       "name": "HALEON UK FINANCE LIMITaED",
+       "fields": {
+        "city": "WEYBRIDGE",
+        "country": "ENGLAND"
+       },
+       "source": "accounts_payable:rec001519"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253Q5R7QXHKPWMCSHEMT8M",
+     "name": "HALEON UK FINANCE (USD) LIMITED",
+     "state": "active",
+     "size": 1,
+     "cards": [
+      {
+       "ref": "R5",
+       "id": "obs_01M3250WP7BYA261BTS8BXCR6H",
+       "name": "HALEON UK FINANCE (USD) LIMITED",
+       "fields": {
+        "address_line": "BUILDING 5, FIRST FLOOR, THE HEIGHTS",
+        "city": "WEYBRIDGE",
+        "postal_code": "KT13 0NY",
+        "country": "ENGLAND"
+       },
+       "source": "companies_house:rec001735"
+      }
+     ]
+    }
+   ],
+   "comparisons": [
+    {
+     "label": "C1",
+     "left": "R1",
+     "right": "R2",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C2",
+     "left": "R1",
+     "right": "R4",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C3",
+     "left": "R2",
+     "right": "R4",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C4",
+     "left": "R6",
+     "right": "R7",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C5",
+     "left": "R1",
+     "right": "R5",
+     "weight": 8.6,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C6",
+     "left": "R2",
+     "right": "R5",
+     "weight": 8.6,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C7",
+     "left": "R4",
+     "right": "R5",
+     "weight": 8.6,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C8",
+     "left": "R1",
+     "right": "R3",
+     "weight": 2.3,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "city",
+       "direction": "supports",
+       "weight": 2.3
+      }
+     ]
+    },
+    {
+     "label": "C9",
+     "left": "R2",
+     "right": "R3",
+     "weight": 2.3,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "city",
+       "direction": "supports",
+       "weight": 2.3
+      }
+     ]
+    },
+    {
+     "label": "C10",
+     "left": "R3",
+     "right": "R4",
+     "weight": 2.3,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "city",
+       "direction": "supports",
+       "weight": 2.3
+      }
+     ]
+    },
+    {
+     "label": "C11",
+     "left": "R3",
+     "right": "R5",
+     "weight": 2.3,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "qualifier_differs",
+       "direction": "contradicts",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "city",
+       "direction": "supports",
+       "weight": 2.3
+      }
+     ]
+    },
+    {
+     "label": "C12",
+     "left": "R3",
+     "right": "R6",
+     "weight": 2.3,
+     "verdict": "POSSIBLE_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "qualifier_differs",
+       "direction": "contradicts",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "city",
+       "direction": "supports",
+       "weight": 2.3
+      }
+     ]
+    }
+   ],
+   "suggestion": {
+    "resolution": "groups",
+    "relation": null,
+    "rationale": "R1, R2, and R4 have matching names and addresses; R3 appears to be a typo of the same company name, supported by the weaker possible-match comparisons. R5’s “(USD)” qualifier and R6/R7’s distinct “CAPITAL PLC” name indicate separate organizations; the records do not establish a specific relationship among them.",
+    "groups": [
+     [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+     ],
+     [
+      "R5"
+     ],
+     [
+      "R6",
+      "R7"
+     ]
+    ],
+    "model": "gpt-6-luna"
+   }
+  },
+  {
+   "id": "rev_01M3253RM46ZCRKV10J4VBNWTM",
+   "kind": "boundary",
+   "question": "Are these the same entity, different entities, or related ones?",
+   "board": [
+    {
+     "entityId": "org_01M3253RB4VB5TBBBV25MHAJBT",
+     "name": "SSE PLC",
+     "state": "active",
+     "size": 4,
+     "cards": [
+      {
+       "ref": "R5",
+       "id": "obs_01M3250Y5R8SPZ7EF7KSYHWDZ9",
+       "name": "SSE PLC",
+       "fields": {
+        "address_line": "INVERALMOND HOUSE, 200 DUNKELD ROAD",
+        "city": "PERTH",
+        "postal_code": "PH1 3AQ"
+       },
+       "source": "companies_house:rec003256"
+      },
+      {
+       "ref": "R6",
+       "id": "obs_01M3250Y5SZMFYRGQ8KVDW7SV3",
+       "name": "SSE PLC",
+       "fields": {
+        "address_line": "INVERALMOND HOUSE",
+        "city": "PERTH",
+        "postal_code": "PH1 3AQ",
+        "country": "GB"
+       },
+       "source": "gleif:rec003257"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253P4YPYE7NGCRFVRHSYJP",
+     "name": "SSE SERVICES PLC",
+     "state": "active",
+     "size": 3,
+     "cards": [
+      {
+       "ref": "R1",
+       "id": "obs_01M3250VC4EDNPJBYKC2XQPWWE",
+       "name": "SSE SERVICES PLC",
+       "fields": {
+        "address_line": "NO.1 FORBURY PLACE, 43 FORBURY ROAD",
+        "city": "READING",
+        "postal_code": "RG1 3JH",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "companies_house:rec000388"
+      },
+      {
+       "ref": "R2",
+       "id": "obs_01M3250VC54DWW1BPSRPEPP0HZ",
+       "name": "SSE SERVICES PLC",
+       "fields": {
+        "address_line": "No.1 Forbury Place",
+        "city": "Reading",
+        "postal_code": "RG1 3JH",
+        "country": "GB"
+       },
+       "source": "gleif:rec000389"
+      },
+      {
+       "ref": "R3",
+       "id": "obs_01M3250VC6952DX5HADPJFTNY5",
+       "name": "Sse Services P.L.C.",
+       "fields": {
+        "address_line": "NO.1 FORBURY PLACE",
+        "city": "READING",
+        "postal_code": "rg1 3jh",
+        "country": "UNITED KINGDOM"
+       },
+       "source": "crm:rec000390"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253Q88HNPPFNFT21N7DQ6H",
+     "name": "SSE HOLDINGS LTD",
+     "state": "active",
+     "size": 2,
+     "cards": [
+      {
+       "ref": "R4",
+       "id": "obs_01M3250WSS35YTBTBW8A07V4YX",
+       "name": "SSE HOLDINGS LTD",
+       "fields": {
+        "address_line": "10-12 MULBERRY GREEN",
+        "city": "HARLOW",
+        "postal_code": "CM17 0ET",
+        "country": "ENGLAND"
+       },
+       "source": "companies_house:rec001849"
+      }
+     ]
+    },
+    {
+     "entityId": "org_01M3253RB8V3CRDS2CXYRWNNGK",
+     "name": "SSE GROUP LIMITED",
+     "state": "active",
+     "size": 1,
+     "cards": [
+      {
+       "ref": "R7",
+       "id": "obs_01M3250Y5ZPHXPTRJGRY0Z478S",
+       "name": "SSE GROUP LIMITED",
+       "fields": {
+        "address_line": "INVERALMOND HOUSE, 200 DUNKELD ROAD",
+        "city": "PERTH",
+        "postal_code": "PH1 3AQ"
+       },
+       "source": "companies_house:rec003263"
+      }
+     ]
+    }
+   ],
+   "comparisons": [
+    {
+     "label": "C1",
+     "left": "R1",
+     "right": "R2",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C2",
+     "left": "R1",
+     "right": "R3",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C3",
+     "left": "R2",
+     "right": "R3",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C4",
+     "left": "R5",
+     "right": "R6",
+     "weight": 18.8,
+     "verdict": "MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "exact_key",
+       "direction": "supports",
+       "weight": 10.2
+      },
+      {
+       "attribute": "location",
+       "level": "postal",
+       "direction": "supports",
+       "weight": 8.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C5",
+     "left": "R1",
+     "right": "R4",
+     "weight": -15.6,
+     "verdict": "NO_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "qualifier_differs",
+       "direction": "contradicts",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "country_only",
+       "direction": "neutral",
+       "weight": -8.4
+      },
+      {
+       "attribute": "legal_form",
+       "level": "different",
+       "direction": "contradicts",
+       "weight": -7.2
+      }
+     ]
+    },
+    {
+     "label": "C6",
+     "left": "R2",
+     "right": "R4",
+     "weight": -15.6,
+     "verdict": "NO_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "qualifier_differs",
+       "direction": "contradicts",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "country_only",
+       "direction": "neutral",
+       "weight": -8.4
+      },
+      {
+       "attribute": "legal_form",
+       "level": "different",
+       "direction": "contradicts",
+       "weight": -7.2
+      }
+     ]
+    },
+    {
+     "label": "C7",
+     "left": "R3",
+     "right": "R4",
+     "weight": -15.6,
+     "verdict": "NO_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "qualifier_differs",
+       "direction": "contradicts",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "country_only",
+       "direction": "neutral",
+       "weight": -8.4
+      },
+      {
+       "attribute": "legal_form",
+       "level": "different",
+       "direction": "contradicts",
+       "weight": -7.2
+      }
+     ]
+    },
+    {
+     "label": "C8",
+     "left": "R4",
+     "right": "R6",
+     "weight": -15.6,
+     "verdict": "NO_MATCH",
+     "cited": true,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "country_only",
+       "direction": "neutral",
+       "weight": -8.4
+      },
+      {
+       "attribute": "legal_form",
+       "level": "different",
+       "direction": "contradicts",
+       "weight": -7.2
+      }
+     ]
+    },
+    {
+     "label": "C9",
+     "left": "R1",
+     "right": "R6",
+     "weight": -7.9,
+     "verdict": "NO_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "country_only",
+       "direction": "neutral",
+       "weight": -8.4
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C10",
+     "left": "R2",
+     "right": "R6",
+     "weight": -7.9,
+     "verdict": "NO_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "country_only",
+       "direction": "neutral",
+       "weight": -8.4
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C11",
+     "left": "R3",
+     "right": "R6",
+     "weight": -7.9,
+     "verdict": "NO_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "token_subset",
+       "direction": "neutral",
+       "weight": 0.0
+      },
+      {
+       "attribute": "location",
+       "level": "country_only",
+       "direction": "neutral",
+       "weight": -8.4
+      },
+      {
+       "attribute": "legal_form",
+       "level": "same",
+       "direction": "supports",
+       "weight": 0.6
+      }
+     ]
+    },
+    {
+     "label": "C12",
+     "left": "R1",
+     "right": "R7",
+     "weight": -7.2,
+     "verdict": "NO_MATCH",
+     "cited": false,
+     "evidence": [
+      {
+       "attribute": "name",
+       "level": "qualifier_differs",
+       "direction": "contradicts",
+       "weight": 0.0
+      },
+      {
+       "attribute": "legal_form",
+       "level": "different",
+       "direction": "contradicts",
+       "weight": -7.2
+      }
+     ]
+    }
+   ],
+   "suggestion": {
+    "resolution": "different",
+    "relation": null,
+    "rationale": "C1–C3 and C4 support the existing matches within R1–R3 and R5–R6, while C5–C8 weigh against merging those groups with R4 or R6. The possible-match signals for R5/R6 and R7 (C16, C17, C21) are weak and do not establish that these separately named organizations are the same or have a specific relationship.",
+    "groups": [
+     [
+      "R1",
+      "R2",
+      "R3"
+     ],
+     [
+      "R4"
+     ],
+     [
+      "R5",
+      "R6"
+     ],
+     [
+      "R7"
+     ]
+    ],
+    "model": "gpt-6-luna"
+   }
+  }
+ ]
+}
