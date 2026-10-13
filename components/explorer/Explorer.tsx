@@ -103,9 +103,8 @@ export function Explorer({
             <Icon name="list-check" /> Review queue <span className="badge">{data.store.openReviews}</span>
           </a>
           <div className="explorer-note">
-            <Icon name="eye" size={14} /> A read-only copy of the Workbench over {plural(data.entities.length, "entity")} and{" "}
-            {plural(data.reviews.length, "review")} exported from a resolved store of{" "}
-            {data.store.observations.toLocaleString()} real UK company records.
+            <Icon name="eye" size={14} /> A read-only copy of the Workbench: {plural(data.entities.length, "entity")} and{" "}
+            {plural(data.reviews.length, "review")} from a resolved store of {data.store.observations.toLocaleString()} records.
           </div>
         </nav>
         <main className="main">

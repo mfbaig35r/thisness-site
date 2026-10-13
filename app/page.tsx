@@ -91,10 +91,7 @@ export default async function Home() {
           </div>
           <Explorer data={explorer} initial={gym ? { kind: "review", id: gym } : undefined} height={640} />
         </div>
-        <p className="stage-caption">
-          Real UK companies, resolved with no model, and a model&apos;s suggested answer to an open review. Hover a label in its
-          rationale to see the records and comparisons it cites.
-        </p>
+        <p className="stage-caption">Hover a label in the suggestion to see the records and comparisons it cites.</p>
       </section>
 
       <section className="band">
@@ -173,12 +170,9 @@ export default async function Home() {
 
       <section className="section">
         <div className="section-head">
-          <div className="kicker">Measured on real data</div>
-          <h2 className="display small">Real UK companies, identifiers hidden</h2>
-          <p className="section-lede">
-            GLEIF and Companies House records, with supplier-file variants generated from the true company. 62% of live UK
-            companies share a registered address; the hard cases are real.
-          </p>
+          <div className="kicker">Measured</div>
+          <h2 className="display small">Precision first, at scale</h2>
+          <p className="section-lede">Company-registry records with supplier-file variants and identifiers hidden. Every number is in the design documents.</p>
         </div>
         <div className="stats">
           <div className="stat-card"><div className="big">.9992</div><div className="what">precision</div><div className="note">3,507 records, no model</div></div>
@@ -233,13 +227,6 @@ export default async function Home() {
             <a href="https://pypi.org/project/thisness/" target="_blank" rel="noreferrer">PyPI</a>
             <Link href="/docs/changelog">Changelog</Link>
             <Link href="/docs/design/vision">Design</Link>
-          </div>
-          <div className="credits">
-            <h4>Data</h4>
-            <p>
-              UK company data from the GLEIF Golden Copy (CC0 1.0) and Companies House (Open Government Licence v3.0). Plant
-              names from World Flora Online (CC0 1.0). Interface after Twenty&apos;s design (MIT).
-            </p>
           </div>
         </div>
       </footer>

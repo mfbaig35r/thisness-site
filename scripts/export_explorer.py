@@ -222,8 +222,7 @@ def main(store: str, out: str) -> None:
             "entities": sum(overview["entities"].get("organization", {}).values()),
             "openReviews": overview["open_reviews"],
         },
-        "attribution": "Real UK companies from the GLEIF Golden Copy (CC0 1.0) and Companies House "
-        "(Open Government Licence v3.0). Supplier-file records are generated from the true company.",
+        "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
         "entities": entities,
         "reviews": reviews,
     }

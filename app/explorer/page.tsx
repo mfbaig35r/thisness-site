@@ -6,7 +6,7 @@ import data from "@/data/explorer.json";
 
 export const metadata: Metadata = {
   title: "Explorer",
-  description: "Real UK companies resolved by Thisness, with the evidence for every value and a model's suggested answers to open reviews.",
+  description: "Entities resolved by Thisness, with the evidence for every value and a model's suggested answers to open reviews.",
 };
 
 export default function ExplorerPage() {
