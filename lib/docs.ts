@@ -161,6 +161,25 @@ function linkDesignMentions() {
   };
 }
 
+// Code blocks drawn with box-drawing characters are diagrams: they get a font that has
+// those characters at one width, and a line height at which vertical bars join.
+const BOX_DRAWING = /[\u2500-\u257F\u25B2-\u25C4]/;
+function markDiagrams() {
+  return (tree: Root) => {
+    visit(tree, "element", (node: Element) => {
+      if (node.tagName !== "pre" || !BOX_DRAWING.test(toString(node))) return;
+      // Shiki writes its classes as a "class" string, not hast's "className" list.
+      const props = node.properties ?? {};
+      if (typeof props.class === "string") props.class = `${props.class} diagram`;
+      else {
+        const list = Array.isArray(props.className) ? props.className.map(String) : [];
+        props.className = [...list, "diagram"];
+      }
+      node.properties = props;
+    });
+  };
+}
+
 // Tables scroll on their own instead of widening the page.
 function wrapTables() {
   return (tree: Root) => {
@@ -191,6 +210,7 @@ async function render(markdown: string, fromPath: string | null) {
       defaultColor: false,
       fallbackLanguage: "text",
     })
+    .use(markDiagrams)
     .use(rehypeStringify)
     .process(markdown);
   return { html: String(file), headings };
