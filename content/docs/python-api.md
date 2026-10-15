@@ -33,6 +33,7 @@ engine = Thisness("identity.duckdb", profiles=[organization()])
 | `history(entity_id=..., observation_id=...)` | Ledger events. |
 | `search(q)` | Entities by name, or any record by its id. |
 | `overview()` | Counts for the store. |
+| `mapping(entity_type, as_of_seq=None)` | Every record, its entity, the entity's name and a status, as a pyarrow table. |
 
 ## Review
 
@@ -55,3 +56,13 @@ Every change takes a `reason` and is a reversible ledger commit.
 | `relate(subject, relation, object_, *, reason)` | Record a relationship between two entities. |
 | `promote(entity_id, *, reason)` | Make a provisional entity active. |
 | `revoke_constraint(constraint_id, *, reason)` | Lift a must-link or cannot-link. |
+| `label(entity_id, name, *, reason)`, `clear_label(entity_id, *, reason)` | Set or remove an entity's display name. |
+
+## Display names
+
+| Method | |
+|---|---|
+| `suggest_labels(entity_type, *, assistant, limit=100)` | Ask a model (`thisness.display_names.LabelAssistant`) for readable names for entities written in capitals. Records suggestions only. |
+| `label_suggestions(entity_ids)` | The latest suggestion for each entity. |
+| `accept_label_suggestion(suggestion_id)` | Label the entity, or its survivor if it has since been merged. |
+| `display_labels(entity_ids)` | Accepted names. |

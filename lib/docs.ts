@@ -39,6 +39,7 @@ export const NAV: NavSection[] = [
       guide("command-line", "Command line", "terminal-2"),
       guide("workbench", "The Workbench", "layout-sidebar"),
       guide("language-models", "Language models", "sparkles"),
+      guide("supplier-lists", "Supplier lists", "list-check"),
       guide("evaluation", "Evaluation", "chart-dots"),
       guide("python-api", "Python API", "code"),
     ],
@@ -54,6 +55,7 @@ export const NAV: NavSection[] = [
       upstream("design/llm-layer", "05 Language-model layer", "file-text", "docs/design/05-m3-llm-layer.md"),
       upstream("design/taxonomy", "06 Taxonomy", "file-text", "docs/design/06-m4-taxonomy.md"),
       upstream("design/real-organizations", "07 Real organizations", "file-text", "docs/design/07-m5-real-organizations.md"),
+      upstream("design/supplier-lists", "08 Supplier lists", "file-text", "docs/design/08-supplier-lists.md"),
     ],
   },
   {
@@ -132,6 +134,7 @@ function collectHeadings(out: Heading[]) {
 const DESIGN_SLUGS: Record<string, string> = {
   "01": "design/resolution-runs", "02": "design/core-model", "03": "design/resolution-pipeline",
   "04": "design/review-workbench", "05": "design/llm-layer", "06": "design/taxonomy", "07": "design/real-organizations",
+  "08": "design/supplier-lists",
 };
 function linkDesignMentions() {
   return (tree: Root) => {
@@ -139,7 +142,7 @@ function linkDesignMentions() {
       if (!parent || index === undefined) return;
       const tag = (parent as Element).tagName;
       if (tag === "a" || tag === "code" || tag === "pre" || /^h[1-6]$/.test(tag ?? "")) return;
-      const re = /\b[Dd]esign (0[1-7])\b/g;
+      const re = /\b[Dd]esign (0[1-8])\b/g;
       if (!re.test(node.value)) return;
       re.lastIndex = 0;
       const parts: (Text | Element)[] = [];

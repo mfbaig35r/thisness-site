@@ -26,6 +26,16 @@ thisness [--store STORE] COMMAND ...
 | `thisness dossier ID [--chars N]` | An entity's dossier as language-model context, within N characters. |
 | `thisness history ID` | Ledger events for an entity or an observation. |
 | `thisness check` | Run the invariant suite. Exits 1 on any violation. |
+| `thisness export mapping [--type T] [--format csv\|parquet] [--output FILE] [--as-of SEQ]` | Every record, its entity and the entity's name, now or as of a ledger point. See [Supplier lists](/docs/supplier-lists). |
+
+## Name entities
+
+| Command | What it does |
+|---|---|
+| `thisness labels suggest [--limit N]` + model options | Ask a model for readable names for entities written in capitals. Records suggestions; changes nothing. |
+| `thisness labels list` | Suggestions not yet accepted. |
+| `thisness labels accept --all` or `accept ID ...` | Accept suggestions: a commit per entity, shown in its history. |
+| `thisness labels clear ENTITY ...` | Remove an accepted name. |
 
 ## Use a model
 
@@ -52,6 +62,7 @@ thisness recommend --provider anthropic --limit 50 --kind boundary
 
 ```bash
 thisness eval [--type T] [--size N ...] [--seeds S ...] [--source synthetic|uk] [--json]
+thisness eval --names-only [--messy] [--plan default|name-only|rewrite]
 ```
 
 See [Evaluation](/docs/evaluation) for the benchmarks and the adjudicator options.

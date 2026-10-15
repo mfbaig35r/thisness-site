@@ -8,7 +8,7 @@
 import { mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import { join } from "node:path";
 
-export const REF = process.env.THISNESS_REF ?? "v0.1.0";
+export const REF = process.env.THISNESS_REF ?? "v0.2.0";
 const REPO = process.env.THISNESS_REPO;
 const RAW = `https://raw.githubusercontent.com/mfbaig35r/thisness/${REF}`;
 const OUT = "content/upstream";
@@ -23,6 +23,7 @@ const FILES = [
   "docs/design/05-m3-llm-layer.md",
   "docs/design/06-m4-taxonomy.md",
   "docs/design/07-m5-real-organizations.md",
+  "docs/design/08-supplier-lists.md",
 ];
 
 async function read(path) {

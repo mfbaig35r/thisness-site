@@ -37,5 +37,6 @@ On real UK companies from GLEIF and Companies House, with identifiers hidden, Th
 
 - [Quickstart](/docs/quickstart): ingest a CSV, resolve it, open the Workbench.
 - [Core concepts](/docs/concepts): observations, evidence, decisions, commits, reviews.
+- [Supplier lists](/docs/supplier-lists): cleaning, the mapping export, readable names.
 - [Explorer](/explorer): real entities and reviews from the UK benchmark, in the browser.
 - [Design documents](/docs/design/vision): why each part works the way it does.

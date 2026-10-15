@@ -20,6 +20,8 @@ Each entity type has a list, largest first, with open-review counts and search. 
 - **History.** The ledger for this entity, one item per commit: created, observations joined, merged, split, related. Click a commit for the decisions it cites.
 - **Context.** Exactly the text a language model would be given about this entity, within a budget, with local-only attributes withheld.
 
+When a model has suggested a readable name for an entity, its page shows it with **Use this name**; accepting it is a commit in the entity's history, and **Clear** undoes it. Each entity list has a **Mapping** download: every record of the type, its entity and the entity's name ([Supplier lists](/docs/supplier-lists)).
+
 ## The review queue
 
 Reviews are ranked by impact. A review is a board: one column per current entity, one card per record (R1, R2, ...). Drag cards between columns to regroup, then answer:

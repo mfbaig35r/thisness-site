@@ -18,7 +18,7 @@ engine = Thisness("identity.duckdb", profiles=[organization(), person(), taxon()
 
 Attributes: `name`, `registration_ids`, `domain`, `website`, `email`, `country`, `city`, `postal_code`, `address_line`.
 
-Names are compared after removing legal forms and normalizing case, punctuation and common abbreviations. The name comparison distinguishes:
+Names are cleaned first (payment-processor prefixes, reference and store numbers, ERP notes: see [Supplier lists](/docs/supplier-lists)), then compared after removing legal forms and normalizing case, punctuation and common abbreviations. The name comparison distinguishes:
 
 | Level | Example | Effect |
 |---|---|---|
@@ -28,6 +28,8 @@ Names are compared after removing legal forms and normalizing case, punctuation 
 | `token_subset` | "Castle Hearing" and "Castle Hearing Group" | 0 bits; a relationship signal |
 | `qualifier_differs` | "Bridgepoint Advisers UK" and "Bridgepoint Advisers Europe" | 0 bits; a relationship signal |
 | `acronym` | "IBM" and "International Business Machines" | support |
+| `trade_name` | "Acme Holdings LLC dba Acme Tools" and "Acme Tools" | 0 bits; a relationship signal |
+| `truncated_prefix` | "SQ *HOWDEN JOINERY PEO" and "Howden Joinery People Ltd" | 0 bits: a cut card descriptor is not a whole name |
 
 Common values are adjusted for how common they are: a frequent name says less than a rare one, and a postcode shared by hundreds of companies (a formation agent's address) says almost nothing. The postcode adjustment only discounts, since a rare shared postcode is already worth its full weight.
 

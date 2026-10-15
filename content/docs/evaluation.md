@@ -43,6 +43,15 @@ thisness ui luna.duckdb                                                # see wha
 
 `--adjudicator oracle` answers from the truth, which bounds what any model could add. `--oracle-error` makes the oracle wrong at a given rate. The report adds the model's accuracy against the truth: wrongly apart, wrongly different, wrongly same, and the confusion between answers.
 
+## Supplier extracts
+
+```bash
+thisness eval --names-only --messy                        # junk on a third of the names
+thisness eval --names-only --plan rewrite --rewrite-order sorted   # a rewrite-and-hash baseline
+```
+
+`--messy` adds what real extracts carry to a share of names: card descriptors (half cut at 22 characters), ERP notes, store suffixes, reference numbers and trade names. `--plan rewrite` runs the method many supplier-consolidation pipelines use, a model rewriting names in chunks and equal rewrites meaning one supplier, so it can be measured against the name-only plan: precision is the same, and it needs its passes ordered by name to match the plan's recall ([design 05](/docs/design/llm-layer) §11.5; [design 08](/docs/design/supplier-lists)).
+
 ## Known limits
 
 - **Memory grows with candidate pairs.** 46,565 records took 7.5 minutes of CPU and 7.8 GB peak memory.
