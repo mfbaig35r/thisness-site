@@ -32,6 +32,23 @@ The benchmark samples companies with an LEI joined to Companies House, adds ever
 | 6,400 sampled | 46,565 | .9965 | .934 | 63 |
 | Synthetic organizations, 4,000 | | .9995 | .938 | 4 |
 
+## Real people
+
+```bash
+python -m thisness.benchmark edgar-stage --store persons.duckdb   # from an edgar-persons-pool store
+thisness eval --type person --source edgar --size 1000
+```
+
+SEC Section 16 insiders (directors, officers, holders of more than 10%) and their real namesakes, each with their EDGAR records, written family first, and up to three records from other systems (a CRM, a board list, a screening list) with nicknames, initials, dropped suffixes, typos, former names and employers written their own way. Truth is the CIK, audited: one insider name in sixteen is shared, and a father and son often sit on one board. A fixture of about 150 insiders ships for tests.
+
+| | Records | Precision | Recall | False-merge clusters |
+|---|---|---|---|---|
+| 1,000 people | 2,893 | 1.0000 | .521 | 0 |
+| 10,000 people | 28,692 | .9985 | .715 | 29 |
+| 10,000, every contested pair answered correctly | 28,692 | .9992 | .948 | 15 |
+
+Most of the gap between the last two rows is reviews: the records of real people carry little besides a name, an employer and a city.
+
 ## With a model
 
 ```bash
@@ -40,6 +57,8 @@ thisness eval --source uk --adjudicator openai --model gpt-6-luna --mode decide 
 thisness eval --source uk --adjudicator openai --model gpt-6-luna --mode decide --replay luna.jsonl
 thisness ui luna.duckdb                                                # see what it did
 ```
+
+`--assistant openai` (or `anthropic`, or `oracle`) has the review assistant answer every review a run leaves open and scores its suggestions as if accepted: right, would merge different entities, would leave a match apart.
 
 `--adjudicator oracle` answers from the truth, which bounds what any model could add. `--oracle-error` makes the oracle wrong at a given rate. The report adds the model's accuracy against the truth: wrongly apart, wrongly different, wrongly same, and the confusion between answers.
 
@@ -54,6 +73,6 @@ thisness eval --names-only --plan rewrite --rewrite-order sorted   # a rewrite-a
 
 ## Known limits
 
-- **Memory grows with candidate pairs.** 46,565 records took 7.5 minutes of CPU and 7.8 GB peak memory.
+- **Memory grows with candidate pairs.** 46,565 organization records took 7.5 minutes of CPU and 7.8 GB peak memory; 28,692 people records, 67 seconds and 2.5 GB.
 - **No embedding candidates yet.** Records that share no blocking key are never compared directly.
 - **The truth is incomplete for relationships.** GLEIF records parents only between companies with LEIs, so a model's "related" for two group siblings can be right and still count against it.

@@ -37,11 +37,13 @@ A model **decides** contested organization pairs when one is configured (`model_
 
 ## People
 
-Attributes: `name`, `given_name`, `family_name`, `email`, `phone`, `date_of_birth`, `employer`, `address_line`, `city`, `country`, `postal_code`, `identifiers`.
+Attributes: `name`, `name_order`, `given_name`, `family_name`, `email`, `phone`, `date_of_birth`, `employer`, `address_line`, `city`, `country`, `postal_code`, `identifiers`.
 
-Nicknames ("Bob" for Robert), initials and spelling variants of one name are the same person when nothing contradicts it. Different dates of birth, or different identifiers in one scheme, mean different people. A household (one family name, one address, often one phone) is a relationship signal, not a match: a parent and child can share a full name.
+Nicknames ("Bob" for Robert), initials and spelling variants of one name are the same person when nothing contradicts it. Different dates of birth, or different identifiers in one scheme, mean different people. A household (one family name, one address, often one phone) is a relationship signal, not a match: a parent and child can share a full name, and a "Jr." on one record only is a question for review, not a match.
 
-Dates of birth are never sent to an external model, and contact details go out hashed. A model only **suggests** answers to people reviews (`model_role="suggest"`): measured on people, a model was both too cautious and too credulous to decide pairs on its own.
+A source that writes names family first without a comma, as registries such as SEC EDGAR do ("SMITH JOHN A JR"), sets `name_order` to `family_first` on its records; the default is `given_first`. A family-first name of three words is also read with a compound family name ("Pineyro Sublett Carla" as Carla Pineyro Sublett).
+
+Dates of birth are never sent to an external model, and contact details go out hashed. A model only **suggests** answers to people reviews (`model_role="suggest"`): on 1,000 real company insiders, a model deciding pairs merged namesakes, while 86% of its review suggestions would have been right ([design 09](/docs/design/real-people)).
 
 ## Taxa
 

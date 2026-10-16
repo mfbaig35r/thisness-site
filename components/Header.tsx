@@ -17,7 +17,7 @@ export function Header({ overWhite = false }: { overWhite?: boolean }) {
   return (
     <header className={`site-header${overWhite ? " over-white" : ""}`}>
       <Link href="/" className="brand" aria-label="Thisness home">
-        <span className="mark">T</span> Thisness <span className="version">v0.2.0</span>
+        <span className="mark">T</span> Thisness <span className="version">v0.3.0</span>
       </Link>
       <nav className="nav-links">
         {LINKS.map((l) => (

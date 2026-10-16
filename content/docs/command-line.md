@@ -61,7 +61,7 @@ thisness recommend --provider anthropic --limit 50 --kind boundary
 ## Measure it
 
 ```bash
-thisness eval [--type T] [--size N ...] [--seeds S ...] [--source synthetic|uk] [--json]
+thisness eval [--type T] [--size N ...] [--seeds S ...] [--source synthetic|uk|edgar] [--assistant P] [--json]
 thisness eval --names-only [--messy] [--plan default|name-only|rewrite]
 ```
 

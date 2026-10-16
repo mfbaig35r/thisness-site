@@ -46,3 +46,5 @@ On real UK companies (400 sampled, 3,507 records, identifiers hidden):
 | A perfect oracle deciding | 1.000 | .948 | 0 | |
 
 As a review assistant on the same benchmark's 177 open reviews ($0.11), 93% of its decided suggestions would have been right if accepted, and accepting all of them would have merged different companies in none. Judging a whole review, a model is far more careful than judging one pair. The numbers and their caveats are in [design 07](/docs/design/real-organizations).
+
+On 1,000 real company insiders the difference decides the role. Deciding pairs, gpt-6-luna called namesakes the same person whenever nothing contradicted it, and false-merge clusters went from 2 to 18 ($0.55). As the review assistant ($0.25), 86% of its decided suggestions would have been right, "same" 96%. People stay at `suggest` ([design 09](/docs/design/real-people)).
