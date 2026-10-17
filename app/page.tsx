@@ -141,7 +141,7 @@ export default async function Home() {
           ))}
           <Link className="principle more" href="/docs/design/vision">
             <h3>Read the design</h3>
-            <p>Seven design documents, from the core model to real organizations, with every measurement.</p>
+            <p>Nine design documents, from the core model to real people, with every measurement.</p>
             <span className="text-link">The design documents <Icon name="arrow-right" size={14} /></span>
           </Link>
         </div>

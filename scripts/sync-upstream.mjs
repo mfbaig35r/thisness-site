@@ -4,11 +4,12 @@
 //   THISNESS_REPO=../thisness node scripts/sync-upstream.mjs   # a local checkout
 //   node scripts/sync-upstream.mjs                             # GitHub, at THISNESS_REF
 //
-// THISNESS_REF defaults to the release the site documents.
+// THISNESS_REF defaults to the release the site documents, or a later commit on main when
+// only documents changed (now: 0.3.0 plus the vision page's headings and diagrams).
 import { mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import { join } from "node:path";
 
-export const REF = process.env.THISNESS_REF ?? "v0.3.0";
+export const REF = process.env.THISNESS_REF ?? "e52e5b49183c58d9d287278746c5b4778616da11";
 const REPO = process.env.THISNESS_REPO;
 const RAW = `https://raw.githubusercontent.com/mfbaig35r/thisness/${REF}`;
 const OUT = "content/upstream";

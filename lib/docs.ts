@@ -181,6 +181,16 @@ function markDiagrams() {
   };
 }
 
+// The page renders a document's title itself, so a "#" heading in the body is a section:
+// left as an h1 it has no prose style and no place in the table of contents.
+function demoteH1() {
+  return (tree: Root) => {
+    visit(tree, "element", (node: Element) => {
+      if (node.tagName === "h1") node.tagName = "h2";
+    });
+  };
+}
+
 // Tables scroll on their own instead of widening the page.
 function wrapTables() {
   return (tree: Root) => {
@@ -201,6 +211,7 @@ async function render(markdown: string, fromPath: string | null) {
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: trusted })
     .use(trusted ? rehypeRaw : () => undefined)
+    .use(demoteH1)
     .use(rehypeSlug)
     .use(linkDesignMentions)
     .use(rewriteLinks, fromPath)
