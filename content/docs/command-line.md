@@ -43,8 +43,8 @@ thisness [--store STORE] COMMAND ...
 
 | Option | Meaning |
 |---|---|
-| `--provider none\|anthropic\|openai` | Which provider. `openai` covers any OpenAI-compatible server. |
-| `--model M` | The model. Default `claude-sonnet-5`. |
+| `--provider none\|anthropic\|openai` | Which provider. `openai` covers any OpenAI-compatible server; `recommend` and `labels` default to it. |
+| `--model M` | The model. Default `gpt-6-luna` for `openai`, `claude-sonnet-5` for `anthropic`. |
 | `--budget USD` | Stop spending at this many US dollars. There is no default limit. |
 | `--base-url URL` | For `--provider openai`; default `https://api.openai.com/v1`. |
 | `--local` | The OpenAI-compatible server is yours, so attributes marked local-only may be sent. |
@@ -54,8 +54,8 @@ thisness [--store STORE] COMMAND ...
 | `--model-role auto\|decide\|shadow\|suggest\|off` | `resolve` only: what the model does. `auto` follows each profile. |
 
 ```bash
-thisness resolve --provider openai --model gpt-6-luna --budget 2
-thisness recommend --provider anthropic --limit 50 --kind boundary
+thisness resolve --provider openai --budget 2
+thisness recommend --limit 50 --kind boundary
 ```
 
 ## Measure it

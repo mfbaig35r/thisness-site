@@ -39,7 +39,7 @@ python -m thisness.benchmark edgar-stage --store persons.duckdb   # from an edga
 thisness eval --type person --source edgar --size 1000
 ```
 
-SEC Section 16 insiders (directors, officers, holders of more than 10%) and their real namesakes, each with their EDGAR records, written family first, and up to three records from other systems (a CRM, a board list, a screening list) with nicknames, initials, dropped suffixes, typos, former names and employers written their own way. Truth is the CIK, audited: one insider name in sixteen is shared, and a father and son often sit on one board. A fixture of about 150 insiders ships for tests.
+SEC Section 16 insiders (directors, officers, holders of more than 10%) and their real namesakes, each with their EDGAR records, written family first, and up to three records from other systems (a CRM, a board list, a screening list) with nicknames, initials, dropped suffixes, typos, former names and employers written their own way. Truth is the CIK, audited: one insider name in sixteen is shared, and a father and son often sit on one board. A fixture of about 150 insiders is kept with the tests in the source repository, not in the installed package.
 
 | | Records | Precision | Recall | False-merge clusters |
 |---|---|---|---|---|

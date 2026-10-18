@@ -6,9 +6,11 @@ description: An optional layer. A model decides contested pairs, or suggests ans
 The engine never needs a model. Where one helps, it is given the contested pairs or the open reviews, with the evidence for each, and its answers are recorded like any other decision: which model, the exact request, the response, tokens and cost.
 
 ```bash
-pip install 'thisness[ui,openai]'      # or [ui,anthropic]
-export OPENAI_API_KEY=...              # or ANTHROPIC_API_KEY
+pip install 'thisness[ui,openai]'
+export OPENAI_API_KEY=...
 ```
+
+The default model is gpt-6-luna, the model behind every measurement on this site; `--model` picks another. An Anthropic provider is included (`[ui,anthropic]`, `--provider anthropic`, `ANTHROPIC_API_KEY`) but has not been measured.
 
 ## Two roles
 
@@ -19,9 +21,9 @@ export OPENAI_API_KEY=...              # or ANTHROPIC_API_KEY
 Each profile states which role a model plays (`model_role`): organizations and taxa `decide`, people `suggest`. `--model-role` overrides it for a run.
 
 ```bash
-thisness resolve --provider openai --model gpt-6-luna --budget 2
-thisness recommend --provider openai --model gpt-6-luna --limit 50
-thisness ui --provider openai --model gpt-6-luna      # Ask the model, from the Workbench
+thisness resolve --provider openai --budget 2
+thisness recommend --limit 50
+thisness ui --provider openai      # Ask the model, from the Workbench
 ```
 
 ## What a model is sent
