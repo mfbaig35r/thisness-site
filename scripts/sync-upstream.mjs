@@ -5,11 +5,11 @@
 //   node scripts/sync-upstream.mjs                             # GitHub, at THISNESS_REF
 //
 // THISNESS_REF defaults to the release the site documents, or a later commit on main when
-// only documents changed (now: the 0.3.1 release).
+// only documents changed (now: the 0.3.4 release).
 import { mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import { join } from "node:path";
 
-export const REF = process.env.THISNESS_REF ?? "v0.3.1";
+export const REF = process.env.THISNESS_REF ?? "v0.3.4";
 const REPO = process.env.THISNESS_REPO;
 const RAW = `https://raw.githubusercontent.com/mfbaig35r/thisness/${REF}`;
 const OUT = "content/upstream";
@@ -26,6 +26,7 @@ const FILES = [
   "docs/design/07-m5-real-organizations.md",
   "docs/design/08-supplier-lists.md",
   "docs/design/09-real-people.md",
+  "docs/design/10-scale-and-the-review-loop.md",
 ];
 
 async function read(path) {

@@ -73,6 +73,6 @@ thisness eval --names-only --plan rewrite --rewrite-order sorted   # a rewrite-a
 
 ## Known limits
 
-- **Memory grows with candidate pairs.** 46,565 organization records took 7.5 minutes of CPU and 7.8 GB peak memory; 28,692 people records, 67 seconds and 2.5 GB.
+- **Memory grows with candidate pairs.** A run keeps Python state for every candidate pair, about 1.9 KB each. With a file-backed store, 86,136 organization records (2 million pairs) resolve in 200 s at a 3.77 GB peak, and 217,337 (5.5 million pairs), the largest run so far, in 9 minutes at 10.7 GB ([design 10](/docs/design/scale-review-loop) §10.3); 28,692 people records, 67 seconds and 2.5 GB.
 - **No embedding candidates yet.** Records that share no blocking key are never compared directly.
 - **The truth is incomplete for relationships.** GLEIF records parents only between companies with LEIs, so a model's "related" for two group siblings can be right and still count against it.
