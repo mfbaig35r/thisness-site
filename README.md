@@ -12,7 +12,7 @@ npm start         # serve out/
 ## Where things come from
 
 - **Guides** (`content/docs/*.md`) are written for the site. They may carry HTML for diagrams.
-- **Design documents, vision and changelog** are not copied: `scripts/sync-upstream.mjs` pulls them from the thisness repo at the release the site documents (`THISNESS_REF`, default `v0.3.1`) before every dev and build. Set `THISNESS_REPO=../thisness` to read a local checkout instead. Mentions such as "design 05" become links.
+- **Design documents, vision and changelog** are not copied: `scripts/sync-upstream.mjs` pulls them from the thisness repo at the release the site documents (`THISNESS_REF`, default `v0.3.5`) before every dev and build. Set `THISNESS_REPO=../thisness` to read a local checkout instead. Mentions such as "design 05" become links.
 - **The explorer's data** (`data/explorer.json`) is exported from a resolved store of the UK benchmark (design 07) with the review assistant's suggestions:
 
   ```bash
