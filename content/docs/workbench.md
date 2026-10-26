@@ -33,6 +33,8 @@ Below the board, the comparisons (C1, C2, ...) are listed strongest first, each 
 
 If a model is configured, **Ask the model** requests a suggestion from the review assistant. It appears above the board with a rationale that cites the board's own labels ("R1 and R3 share a postcode, C2"), and the comparisons it relied on are marked. **Apply to the board** moves the cards to its grouping for you to confirm. Whether reviewers' answers matched the suggestions they were shown is recorded (`engine.assistant_agreement()`).
 
+When suggestions are waiting, the queue shows what accepting them in bulk would do, by kind, and **Accept N suggestions** accepts the kinds the profile allows: one answer per review, recorded as yours and reversible ([Language models](/docs/language-models#accepting-suggestions-in-bulk)).
+
 ## Possible relationships
 
 Entity pairs linked by relationship signals (a shared brand, a group's sibling companies, a household) and not yet related. They are grouped into neighborhoods of at most thirty entities, largest first, fifty to a page. Open a pair to relate the two entities, or to merge them if they are the same.

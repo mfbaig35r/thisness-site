@@ -204,6 +204,24 @@ function wrapTables() {
   };
 }
 
+// A command's signature in a table cell may wrap, but only at its spaces: each word is a
+// span kept whole, so a flag such as [--dry-run] never breaks after its dashes.
+function keepWordsWhole() {
+  return (tree: Root) => {
+    visit(tree, "element", (node: Element, _index, parent) => {
+      if (node.tagName !== "code" || (parent as Element | undefined)?.tagName !== "td") return;
+      const text = toString(node);
+      if (!text.includes(" ")) return;
+      const words = text.split(" ");
+      node.children = words.flatMap((word, i) => [
+        ...(i > 0 ? [{ type: "text" as const, value: " " }] : []),
+        { type: "element" as const, tagName: "span", properties: { className: ["word"] },
+          children: [{ type: "text" as const, value: word }] },
+      ]);
+    });
+  };
+}
+
 async function render(markdown: string, fromPath: string | null) {
   const headings: Heading[] = [];
   const trusted = fromPath === null; // the site's own guides may carry HTML (diagrams)
@@ -218,6 +236,7 @@ async function render(markdown: string, fromPath: string | null) {
     .use(rewriteLinks, fromPath)
     .use(collectHeadings, headings)
     .use(wrapTables)
+    .use(keepWordsWhole)
     .use(rehypeShiki, {
       themes: { light: "github-light", dark: "github-dark-dimmed" },
       defaultColor: false,

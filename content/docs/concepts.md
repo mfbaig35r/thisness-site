@@ -61,7 +61,7 @@ When consensus cannot settle a cluster, it opens a **review**:
 | `merge` | Should these existing entities merge? |
 | `split` | Should this entity be split? |
 
-Reviews are ranked by impact. An answer is `same`, `different`, `related` (with a relation), or `groups` (a regrouping of the records), and it is stored with its reason. A **review assistant** can suggest answers, which a person accepts or overrides. See [The Workbench](/docs/workbench).
+Reviews are ranked by impact. An answer is `same`, `different`, `related` (with a relation), or `groups` (a regrouping of the records), and it is stored with its reason. A **review assistant** can suggest answers, which a person accepts or overrides, one at a time or in bulk for the kinds a profile allows. See [The Workbench](/docs/workbench).
 
 ## Dossiers
 

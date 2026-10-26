@@ -26,6 +26,32 @@ thisness recommend --limit 50
 thisness ui --provider openai      # Ask the model, from the Workbench
 ```
 
+## Accepting suggestions in bulk
+
+Once the assistant has answered the open reviews, a person can accept its suggestions of chosen kinds at once, from the command line or with **Accept N suggestions** on the Workbench's review queue:
+
+```bash
+thisness recommend --limit 5000 --budget 3     # a suggestion for every open review
+thisness reviews accept --dry-run              # what would be accepted, by kind
+thisness reviews accept                        # the profile's kinds
+thisness reviews accept --resolution same,related,different
+```
+
+Each acceptance is an ordinary answer: one per review, with you as its actor and the suggestion linked, reversible like any other. A suggestion made before one of its review's entities changed is skipped. Agreement statistics count bulk acceptances apart, since they agree by construction.
+
+A profile's `accept_suggestions` names the kinds it accepts by default, measured per domain like `model_role`:
+
+- **Organizations accept "different" and "related".** Neither ever merges anything: a wrong one leaves a match apart. On the UK benchmark they close 59% of reviews at 3,507 records and 61% at 46,565 without changing an entity.
+- **"same" is accepted only when you name it.** It closes more and lifts recall (.934 to .943 at 46,565 records), but 9 of its 306 suggestions there merged different companies. At 3,507 records every one had been right; a default must hold at scale.
+- **People and taxa accept nothing by default.** On 1,000 real people 14 of 377 "same" suggestions would have merged two different people.
+
+| UK records | Reviews | Left after the default | Left with "same" too | Cost of the suggestions |
+|---|---|---|---|---|
+| 3,507 | 237 | 98 | 65 | $0.17 |
+| 46,565 | 2,629 | 1,021 | 716 | $2.00 |
+
+What is left is mostly regroupings and unsure answers: the work that stays a person's. The measurements are in [design 10](/docs/design/scale-review-loop) §10.4.
+
 ## What a model is sent
 
 The prompts are domain-neutral, with each profile's guidance appended. The review assistant sees records and comparisons under short labels (R1, C1), the same ones the Workbench shows. Attributes a profile marks `local_only` (a person's date of birth, an address line) are withheld from external providers; contact details go out hashed. With `--local`, the OpenAI-compatible server is yours and they may be sent.

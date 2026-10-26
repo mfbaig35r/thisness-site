@@ -197,6 +197,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .prose th, .prose td { padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .prose tr:last-child td { border-bottom: 0; }
 .prose td code { white-space: nowrap; }
+/* A command's signature in the first column wraps at its spaces, so a long one does not
+   squeeze the description beside it; each word is a span kept whole (lib/docs.ts). */
+.prose td:first-child code { white-space: normal; }
+.prose td code .word { white-space: nowrap; }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .shiki span { color: var(--shiki-dark); }

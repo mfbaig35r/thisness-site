@@ -43,6 +43,7 @@ engine = Thisness("identity.duckdb", profiles=[organization()])
 | `review_case(review_id)` | A review's records, current entities and comparisons. |
 | `resolve_review(review_id, resolution, *, groups=None, relation=None, reason)` | Answer it: `same`, `different`, `related` (with `relation`) or `groups` (a partition of its records). |
 | `recommend(review_id, *, assistant)`, `recommend_open(limit=50, assistant=...)` | Ask the review assistant. |
+| `accept_recommendations(*, actor, entity_type=None, resolutions=None, dry_run=False)` | Accept the latest suggestion of every open review whose kind the profile accepts in bulk (`accept_suggestions`), or the kinds `resolutions` names. Each is an answer by `actor`, reversible. Returns what was accepted by kind and what was left open by why. |
 | `relationship_candidates(entity_id=None)` | Entity pairs with relationship signals, not yet related. |
 
 ## Change identity

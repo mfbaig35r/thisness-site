@@ -23,6 +23,7 @@ thisness [--store STORE] COMMAND ...
 |---|---|
 | `thisness ui [PATH] [--port P] [--no-browser]` | Open the [Workbench](/docs/workbench) on a store. |
 | `thisness reviews` | Open reviews, most impactful first. |
+| `thisness reviews accept [--dry-run] [--resolution KINDS] [--type T] [--actor NAME]` | Accept the model's latest suggestion for every open review whose kind the profile accepts in bulk, or the kinds `--resolution` names (`same,different,related,groups`). Each acceptance is your answer, linked to the suggestion and reversible; suggestions made before a review's entities last changed are skipped. `--dry-run` counts by kind and changes nothing. See [Language models](/docs/language-models#accepting-suggestions-in-bulk). |
 | `thisness dossier ID [--chars N]` | An entity's dossier as language-model context, within N characters. |
 | `thisness history ID` | Ledger events for an entity or an observation. |
 | `thisness check` | Run the invariant suite. Exits 1 on any violation. |
@@ -56,12 +57,14 @@ thisness [--store STORE] COMMAND ...
 ```bash
 thisness resolve --provider openai --budget 2
 thisness recommend --limit 50 --kind boundary
+thisness reviews accept --dry-run      # what accepting the suggestions in bulk would close
 ```
 
 ## Measure it
 
 ```bash
-thisness eval [--type T] [--size N ...] [--seeds S ...] [--source synthetic|uk|edgar] [--assistant P] [--json]
+thisness eval [--type T] [--size N ...] [--seeds S ...] [--source synthetic|uk|edgar] [--assistant P [--accept]] [--json]
+thisness eval --answer N [--epsilon E]                 # the calibration experiment (design 10)
 thisness eval --names-only [--messy] [--plan default|name-only|rewrite]
 ```
 

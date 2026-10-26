@@ -7,7 +7,7 @@ description: Benchmarks with known truth, and what the numbers mean.
 
 - **Precision and recall** over pairs of records (B3), and their F1.
 - **False-merge clusters**: entities holding records of more than one true thing, with how many records are contaminated and the largest.
-- **Reviews** opened and records held in review.
+- **Reviews** opened, per 1,000 records, and records held in review.
 - **Candidate recall**: how many true pairs blocking proposed at all, the ceiling on recall.
 
 ```bash
@@ -58,7 +58,9 @@ thisness eval --source uk --adjudicator openai --model gpt-6-luna --mode decide 
 thisness ui luna.duckdb                                                # see what it did
 ```
 
-`--assistant openai` (or `anthropic`, or `oracle`) has the review assistant answer every review a run leaves open and scores its suggestions as if accepted: right, would merge different entities, would leave a match apart.
+`--assistant openai` (or `anthropic`, or `oracle`) has the review assistant answer every review a run leaves open and scores its suggestions as if accepted: right, would merge different entities, would leave a match apart. Add `--accept` to accept the kinds each profile accepts in bulk and report precision, recall, false merges and the reviews left.
+
+`--answer N` is design 10's calibration experiment: the oracle answers the N most impactful reviews, their labels set new thresholds, and the other reviews are triaged again. It reports leverage, reviews closed per review answered; it was 0 and 0.1 on the UK and EDGAR benchmarks, so answers stay labels and change no thresholds ([design 10](/docs/design/scale-review-loop) §10.5).
 
 `--adjudicator oracle` answers from the truth, which bounds what any model could add. `--oracle-error` makes the oracle wrong at a given rate. The report adds the model's accuracy against the truth: wrongly apart, wrongly different, wrongly same, and the confusion between answers.
 
